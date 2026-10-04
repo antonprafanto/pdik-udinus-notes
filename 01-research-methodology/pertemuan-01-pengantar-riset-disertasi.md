@@ -34,9 +34,10 @@ Prof. Guruh menekankan agar kita segera *move on* ke pola pikir level doktoral:
 
 > 💬 *"Jelek-jelek buatan sendiri jauh lebih mulia daripada sekadar meniru. Di era AI saat ini (ChatGPT/Claude/Gemini), urusan koding matematika bisa selesai dalam 5 menit. Level doktor tidak lagi berdebat di urusan koding, melainkan pada: **metode komputasi apa yang kita sumbangkan?**"*
 
-#### Analogi Formula Einstein ($E = mc^2$):
+#### Analogi Formula Einstein ($E = mc^2$) & Penolakan Paper:
 * Massa ($m$) sudah diteliti Newton, kecepatan cahaya kuadrat ($c^2$) sudah diteliti matematikawan Prancis.
-* Einstein menciptakan sintesis rumusan energinya ($E = mc^2$).
+* Einstein menciptakan sintesis rumusan energinya ($E = mc^2$). Bahkan naskah publikasi pertama Einstein sempat **di-reject oleh reviewer** karena reviewer saat itu tidak mampu membayangkan konsepnya!
+* Kutipan Filosofis: *"Education is not the learning of facts, but the training of the mind to think."* (Bukan sekadar tahu $1+1=2$, tapi paham cara aljabar dan konsep di baliknya bekerja).
 * Level S3 tidak harus menciptakan rumus fisika kuantum dari nol, tetapi merancang metode/arsitektur komputasi baru yang memiliki pijakan ilmiah kuat untuk mengatasi keterbatasan metode sebelumnya.
 
 ---
@@ -44,12 +45,16 @@ Prof. Guruh menekankan agar kita segera *move on* ke pola pikir level doktoral:
 ### 3. 🧵 Formula Disertasi: Menenun Minimal 3 Elemen Riset (3 Research Questions)
 Disertasi PhD bukanlah satu eksperimen tunggal, melainkan **merajut minimal 3 sub-penelitian yang saling mengikat**:
 
-1. **Elemen 1 (RQ1 - Identifikasi & Evaluasi Gap):**  
-   Mengevaluasi kelemahan metode-metode *state-of-the-art* saat ini melalui *Systematic Literature Review* atau studi empiris awal. *(Target: Publikasi Konferensi Internasional 1)*.
-2. **Elemen 2 (RQ2 - Novelty / Metode Baru):**  
-   Menciptakan metode baru (algoritma, arsitektur, atau kombinasi metode terstruktur) untuk menyelesaikan gap pada elemen 1. Ini menjadi kontribusi inti (*novelty*) disertasi kita. *(Target: Publikasi Jurnal Utama Q1/Q2)*.
-3. **Elemen 3 (RQ3 - Uji Ketahanan / Robustness Test):**  
-   Menguji metode baru pada berbagai kondisi ekstrem, variasi derau (*noise*), atau objek berbeda untuk membuktikan ketangguhan sistem. *(Target: Publikasi Jurnal/Konferensi 2)*.
+* 🚗 **Analogi "Melihat Kaca Spion Mobil":**  
+  *Research Problem*, *Background*, dan *Related Work* boleh sama dengan penelitian terdahulu (seperti melihat kaca spion ke belakang). Tetapi **Research Questions dan Hipotesis MUTLAK TIDAK BOLEH SAMA** agar tidak sekadar mengulang riset orang lain.
+* 🔑 **Aturan Emas Novelty ("Cukup SATU Novelty Utama"):**  
+  Tidak semua RQ harus penemuan baru spektakuler. Cukup **SATU Novelty Utama di RQ2**:
+  1. **Elemen 1 (RQ1 - Identifikasi & Evaluasi Gap):**  
+     Mengevaluasi kelemahan metode SOTA melalui SLR atau studi empiris awal. *(Target: Paper Prosiding Konferensi Scopus 1)*.
+  2. **Elemen 2 (RQ2 - Novelty / Metode Baru - Jantung Disertasi):**  
+     Menciptakan metode baru (algoritma, arsitektur, atau kombinasi metode terstruktur) untuk menyelesaikan gap pada elemen 1. Di sini kebaruan wajib ada! *(Target: Publikasi Jurnal Utama Q1/Q2)*.
+  3. **Elemen 3 (RQ3 - Uji Ketahanan / Robustness Test):**  
+     Menguji metode baru pada variasi data, objek berbeda (manusia, hewan, kendaraan), derau (*noise*), atau kondisi ekstrem untuk membuktikan ketangguhan sistem. *(Target: Publikasi Jurnal/Konferensi 2)*.
 
 > 💡 **Strategi Lulus 3 Tahun:**  
 > Review jurnal Q1 sering memakan waktu 1–1,5 tahun. Memiliki minimal 3 RQ yang berjalan paralel/semi-paralel menghindarkan kita dari risiko "menganggur" menunggu review dan menjaga timeline kelulusan tetap aman.
@@ -67,7 +72,8 @@ Di Bab 3 (Metodologi), jangan hanya menyajikan satu diagram alir umum yang menga
 ### 4. ⚠️ 3 Jebakan yang Harus Dihindari
 1. **Jangan Terjebak Mengumpulkan Data Primer dari Nol ("Surga vs. Neraka Riset"):**  
    * Banyak mahasiswa S3 terhambat studinya 1–2 tahun hanya demi mengumpulkan data primer di awal.  
-   * 👉 **Saran Emas Prof. Guruh ("Surga Riset"):** Gunakan **data sekunder benchmark publik** yang sudah teruji, ada paper rujukannya, dan ada source code pembandingnya. Setelah metode baru kita terbukti unggul pada data benchmark, barulah diujikan ke data primer/lapangan kita.  
+   * 🔭 *Sindiran Tajam Prof. Guruh:* *"Bapak mau meneliti apa? Memotret langit? Bapak mabuk memfoto langit! Di luar sana ada teleskop James Webb dan Bosscha Bandung! Mau 'nitiki' (melabeli bintang satu per satu) butuh berapa tahun?!"*  
+   * 👉 **Saran Emas Prof. Guruh ("Surga Riset"):** Gunakan **data sekunder benchmark publik** yang sudah teruji, ada paper rujukannya, dan ada source code pembandingnya. Jalankan kodenya, pastikan reproduksibel, lalu buktikan metode baru kita lebih unggul. Setelah terbukti pada benchmark, barulah diujikan ke data primer/lapangan kita jika diperlukan.  
    * *Hati-hati:* Jangan gunakan dataset sembarangan dari Kaggle yang tidak memiliki paper validasi baku.
 2. **Sekadar Mengganti Objek Bukanlah Riset S3:**  
    Metode deteksi objek yang sama dipakai untuk mendeteksi daun apel, lalu kita ganti mendeteksi daun pisang $\rightarrow$ itu tetap riset level S1. Di S3, yang harus baru adalah **metode komputasinya**.
