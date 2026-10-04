@@ -103,7 +103,7 @@ Prof. Aji menggarisbawahi perubahan tren riset di era kecerdasan komputasi moder
 Menjawab pertanyaan mengenai apakah riset S3 harus selalu menghasilkan akurasi yang lebih tinggi:
 
 > *"Hasil penelitian S3 TIDAK HARUS SELALU LEBIH BAIK angkanya. Yang mutlak adalah Anda menemukan sisi kebaruan (Novelty) dan mampu membuktikan kemanfaatannya (Contribution)."*  
-> — **Prof. Dr. Aji Supriyanto** (mengutip nasihat promotor beliau, Prof. Jasman)
+> — **Prof. Dr. Aji Supriyanto** (mengutip nasihat promotor beliau yang membimbing secara konsisten sejak jenjang S1, S2, hingga S3, Prof. Jasman)
 
 * **Analogi Robot Vision (Prof. Aji):**
   * Robot vision SOTA saat ini mampu mendeteksi objek manusia/benda hingga jarak **60 meter** dengan akurasi pengenalan pola $>90\%$, namun sensornya hanya mengandalkan pola visual dasar dan "buta" terhadap variasi warna kompleks (terbatas RGB).
@@ -149,6 +149,9 @@ Prof. Aji memberikan instruksi praktis yang wajib segera dieksekusi sejak awal s
    Dari 6 rekan sekantor beliau yang kuliah S3 di UGM: 3 lulus, 3 DO. Dari 3 yang DO, 2 orang gagal karena **memutus komunikasi saat menghadapi kebuntuan riset**.
    * Keluhan Promotor: *"Wong ono masalah kok meneng wae!"* (Ada masalah kok diam saja!).
    * **Analogi Jalur Menanjak:** Jika jalan lurus di depan menanjak terjal dan mentok, komunikasikan ke promotor. Promotor akan membantu membelokkan rute ke alternatif jalan yang mungkin agak lebih panjang, tapi landai dan bisa diselesaikan dengan selamat.
+3. **Pesan Humanis & Doa Penutup Prof. Aji:**  
+   Perkuliahan perdana ditutup tepat pada pukul **14.45 WIB** dengan doa dan nasihat penutup yang sangat menyejukkan:  
+   > *"Sukses selalu, sehat selalu, dan jangan lupa selalu bahagia!"* (Baris 1537–1539).
 
 ---
 *Catatan ini dirangkum dari perkuliahan perdana Filsafat Ilmu PDIK UDINUS untuk keperluan belajar mandiri dan berbagi pengetahuan.*
