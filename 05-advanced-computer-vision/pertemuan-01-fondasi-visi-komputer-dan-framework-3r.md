@@ -145,4 +145,19 @@ Perkembangan industri modern mengarah pada **pengurangan intervensi manusia (*mi
 * **Tantangan Rekayasa Perangkat Lunak:** Memampukan model komputasi visual (CNN/ViT) berjalan lancar pada perangkat berdaya rendah (*resource-constrained embedded devices*) dengan latensi rendah dan konsumsi memori SRAM minimal.
 
 ---
+
+## 7. 🎓 Pesan Karir Akademik: Linieritas Riset Menuju Guru Besar
+
+Dr. Arief memberikan wejangan strategis bagi masa depan karir akademik mahasiswa program doktoral:
+1. **Fokus Kepakaran Mengerucut (*Professor of Object Detection*):**
+   - *"Setelah lulus nanti publikasi Bapak Ibu tidak boleh campur-campur, karena Bapak Ibu dipersiapkan menjadi Profesor nantinya insyaAllah."*
+   - Mahasiswa diingatkan untuk tidak mengklaim kepakaran umum yang terlampau luas seperti *"Profesor Computer Vision"* karena cakupannya tidak bertepi.
+   - Pilihlah satu titik fokus yang tajam, misalnya **Profesor Bidang Object Detection** atau **Visi Tepi (Edge Vision)**. Kepakaran yang mengerucut inilah yang diakui secara internasional dan memenuhi syarat linieritas Guru Besar (Permendiktisaintek).
+2. **Kontinuitas Riset Magister (S2) ke Doktoral (S3):**
+   - Mahasiswa yang pada jenjang S2 telah meneliti bidang *image processing* dianjurkan untuk melanjutkan dan memperdalam topik tersebut di jenjang S3 agar risetnya matang (*established*) dan tidak memulai dari nol.
+3. **Strategi *"Sekolah S3 Tidak Boleh Rugi"*: Disertasi dan Hibah BIMA:**
+   - Memetakan roadmap publikasi sejak dini (konferensi Scopus hingga jurnal internasional Q1/Q2).
+   - Memasukkan usulan disertasi ke skema **Hibah Penelitian Disertasi Doktor (BIMA Kemdiktisaintek)** sehingga riset doktoral didanai oleh negara: ilmu bertambah, karir melesat, publikasi tercapai, dan biaya riset terdanai penuh.
+
+---
 *Catatan kuliah ini disusun sebagai dokumentasi pembelajaran mandiri dan telaah akademis mata kuliah Visi Komputer Lanjut Program Doktor Ilmu Komputer UDINUS.*
