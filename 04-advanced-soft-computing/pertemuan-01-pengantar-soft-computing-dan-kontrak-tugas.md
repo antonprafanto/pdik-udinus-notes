@@ -12,6 +12,10 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
 
 * **Bebas Ujian Tertulis Konvensional (UTS / UAS):** Evaluasi perkuliahan berpusat pada penugasan riset bertahap yang diselaraskan langsung dengan **rencana topik Disertasi S3**.
 * **Jaminan Penilaian Objektif:** Mahasiswa yang pada akhir semester telah menyelesaikan naskah paper siap submit dijamin memperoleh nilai yang sangat memuaskan (*"nilainya otomatis apik lah ngono wae"*).
+* **Kewajiban Publikasi Doktoral UDINUS (Arahan Prof. Aris):**  
+  Mahasiswa S3 diwajibkan menghasilkan minimal 2 publikasi Scopus:
+  1. *Publikasi 1 (Pra-Proposal):* International Conference Scopus (IEEE/ACM) sebagai syarat maju Ujian Proposal Disertasi. **(Ditargetkan langsung dari Tugas 3 mata kuliah ini!)**
+  2. *Publikasi 2 (Kelulusan Disertasi):* Jurnal Internasional Bereputasi Scopus (Q1/Q2) yang memuat perbaikan metode (*method improvement*).
 * **Target Output:** Di akhir semester, mahasiswa menghasilkan **draf naskah ilmiah format IMRaD siap *submit* ke International Conference terindeks Scopus (IEEE/ACM/Scopus)**.
 
 ```
@@ -48,7 +52,9 @@ Penugasan perkuliahan dirancang terstruktur dalam 3 tahapan yang saling menyambu
    * Rumusan Masalah: *Research Questions* (RQ1, RQ2, RQ3)
    * Tujuan Penelitian: *Research Objectives* (RO1, RO2, RO3)
 3. **Review Literatur:** Mengulas **minimal 7 paper Scopus (5 tahun terakhir)** yang paling relevan dengan topik usulan ($\sim 0,5$ halaman per paper, total $\sim 3,5$ halaman: masalah, metode, capaian hasil, keunggulan, serta kelemahan/gap).
-4. **Presentasi:** Dipresentasikan ringkas ($\sim 10$ menit per mahasiswa) untuk mendapatkan masukan dosen dan rekan sekelas.
+4. **Penetapan "Paper Acuan" (Baseline Benchmark Paper):**  
+   Dari 7 paper yang direview, mahasiswa **wajib menunjuk 1 paper utama sebagai Paper Acuan (Riset Acuan)**. Paper acuan inilah yang menjadi lawan tanding (*benchmark*) di mana kelemahannya akan diperbaiki dan metrik performanya akan dikalahkan oleh metode usulan kita.
+5. **Presentasi:** Dipresentasikan ringkas ($\sim 10$ menit per mahasiswa) untuk mendapatkan masukan dosen dan rekan sekelas.
 
 ### 🔹 Tugas 2: Proposed Method & Metodologi / Bab 3 (Deadline: ~Minggu ke-8/9)
 1. Menguraikan metode yang diusulkan (*proposed method*) atau kombinasi algoritma baru.
@@ -89,8 +95,8 @@ Prof. Fanani menekankan bahwa riset doktoral wajib menghadirkan **Improvement / 
 ## 4. 🏛️ Pesan Sowan ke UDINUS Semarang & Solidaritas Angkatan 2026
 
 * **Wajib Berkunjung ke Kampus UDINUS Semarang:**  
-  Meskipun perkuliahan berjalan daring/hybrid, Prof. Fanani berpesan agar minimal setahun sekali mahasiswa menyempatkan diri datang ke kampus UDINUS di Semarang (minimal seminggu) untuk sowan dan berdiskusi langsung dengan calon promotor.  
-  *Patokan Kampus:* Tepat di jantung kota Semarang dekat **Tugu Muda dan Lawang Sewu**.
+  Meskipun perkuliahan berjalan daring/hybrid, Prof. Fanani berpesan agar minimal setahun sekali mahasiswa menyempatkan diri datang ke kampus UDINUS di Semarang (minimal seminggu) untuk sowan dan berdiskusi langsung dengan calon promotor: **Prof. Dr. Aris Marjuni** (Kaprodi), **Dr. Pulung Nurtantio Andono** (Wakil Dekan / CV), **Dr. Farikhin** (Soft Computing), dan **Dr. M. Arief Soeleman** (Image Processing).  
+  *Patokan Kampus:* Tepat di jantung kota Semarang dekat **Tugu Muda dan Lawang Sewu**. *"Kalau gak pernah ke Udinus jangan harap lulus dulu! 3 tahun mosok gak pernah ke Udinus."*
 * **Solidaritas Angkatan 2026 (70% Mahasiswa Kalimantan):**  
   Prof. Fanani mendorong mahasiswa membuat grup mandiri angkatan 2026 untuk saling mereview draf tugas, memecahkan kebuntuan koding/algoritma, dan menjaga semangat agar seluruh rekan satu angkatan dapat lulus bersama tepat 3 tahun.
 * **Presensi Akademik:** Presensi perkuliahan dipantau melalui portal akademik `mhs.dinus.ac.id` / SIADIN.
