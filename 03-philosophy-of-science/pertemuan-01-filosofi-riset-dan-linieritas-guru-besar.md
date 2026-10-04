@@ -83,15 +83,16 @@ Hakikat filsafat ilmu dalam disertasi dirumuskan dalam 4 pertanyaan mendasar yan
 ## 5. 💡 Paradigma Baru: *"Data is Golden"* & Pipeline Akuisisi Data
 
 Prof. Aji menggarisbawahi perubahan tren riset di era kecerdasan komputasi modern:
-* Jika dahulu *"Silence is golden"*, maka era sekarang **"Data is Golden" (Data adalah Emas)**.
+* **Asal-Usul Istilah:** Prof. Aji membagikan kisah saat menjadi reviewer di **UKSW Salatiga** berdiskusi dengan Direktur LPPM UKSW. Jika dahulu *"Silence is golden"*, maka era sekarang **"Data is Golden" (Data adalah Emas)**.
 * **Metode/Algoritma Semakin Mudah Diakses:** Pustaka AI/ML *open-source* dan *AI coding agents* memudahkan implementasi algoritma. Yang paling menantang, langka, dan bernilai tinggi saat ini adalah **ketersediaan, keaslian, dan kualitas data**.
 * **Novelty Tidak Harus Selalu Algoritma Baru:**  
   Kebaruan tingkat doktoral dapat dibangun melalui **Pipeline Perencanaan Data (*Data Pipe Planning*)**:
   $$\text{Teknik Akuisisi Data} \longrightarrow \text{Pembersihan (Cleaning)} \longrightarrow \text{Analisis Data dan Model} \longrightarrow \text{Uji Output dan Validasi}$$
 * **Pelajaran dari Studi Kasus BMKG (Riset Prof. Aji):**
-  * Sensor cuaca IoT yang merekam data tiap 30 menit ($17.520$ *records*/tahun) kerap mengalami 3%–4% data hilang (*missing*) atau rusak akibat cuaca buruk, sambaran petir, degradasi kalibrasi sensor, atau gangguan sinyal transmisi.
+  * Sensor cuaca IoT yang merekam data tiap 30 menit ($17.520$ *records*/tahun) kerap mengalami 3%–4% data hilang (*missing*) atau rusak akibat cuaca buruk, sambaran petir, degradasi kalibrasi alat penakar (*ombrometer*), atau gangguan transmisi transceiver telekomunikasi.
   * Solusi lama dengan interpolasi matematika hanya mencapai akurasi 85%–90%.
   * Riset menggunakan model AI (ANN) berhasil mencapai akurasi imputasi $>95\%$, sekaligus memangkas kebutuhan data historis *time-series* dari standar lama 30 tahun menjadi cukup **5–10 tahun representatif**.
+  * *Perbedaan Riset Terapan vs Riset Doktoral:* Riset terapan (Kedaireka) menuntut aplikasi siap pakai berantarmuka UI/UX, sedangkan riset doktoral/jurnal Scopus cukup membuktikan validitas model komputasi matematisnya.
 * **Peringatan Bahaya Dataset Terlalu Sedikit (Kasus 600 Sampel):**
   Prof. Aji mengingatkan kasus nyata seorang kandidat doktor yang meneliti Computer Vision untuk diagnosis penyakit, namun datanya **hanya 600 sampel citra**. Akibatnya akurasi model diragukan dan langsung diserang asesor/reviewer karena sampel tidak representatif terhadap kondisi riil.
 
@@ -131,10 +132,11 @@ Prof. Aji memberikan instruksi praktis yang wajib segera dieksekusi sejak awal s
 
 ---
 
-## 9. 📖 Filosofi Kuliah S3: "Bukan Berburu Nilai Huruf, Tapi Kematangan Substansi"
+## 9. 📖 Filosofi Kuliah S3 & Sistem Perkuliahan (SIADIN vs. Kulino)
 
-* Menanggapi belum aktifnya akun Kulino untuk presensi perkuliahan, Prof. Aji tersenyum santai:  
+* Menanggapi belum aktifnya akun Kulino (LMS Moodle UDINUS) untuk presensi perkuliahan, Prof. Aji tersenyum santai:  
   *"Untuk absen S3 sakjane ora penting ono absen barang... gak mungkinlah Anda itu mendapat nilai kurang dari B, itu gak mungkin!"*
+* Jika akses Kulino belum dibuka secara umum bagi mahasiswa baru S3, materi perkuliahan dan koordinasi akan difasilitasi langsung via **Grup WhatsApp S3**.
 * **Intinya:** Kuliah S3 bukan tempat berburu nilai huruf A/B atau mengejar formalitas presensi, melainkan ruang pendewasaan nalar, dialektika ilmiah, dan pengasahan pemikiran bersama para pakar.
 
 ---
