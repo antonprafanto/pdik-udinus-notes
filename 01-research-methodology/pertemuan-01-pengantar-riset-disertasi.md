@@ -16,6 +16,10 @@ Berikut rangkuman poin-poin penting, filosofi riset doktoral, dan arahan tugas d
 * Prof. Guruh menyarankan agar kita **tidak menyusun proposal hanya demi formalitas nilai kuliah**. Buatlah proposal yang memang diniatkan untuk menjadi **naskah Disertasi S3** kita yang sesungguhnya.
 * Semakin cepat kita memetakan topik dan mengontak calon promotor (melalui Kaprodi S3 Prof. Aris), proses studi kita akan jauh lebih terarah dan efisien.
 * Prinsip belajar doktoral (mengutip Prof. Jazi UGM): *"You are on your own"* — kemandirian, konstruktivitas, dan orisinalitas riset adalah kunci utama.
+* ⚠️ **Peringatan Penguji Luar Negeri & Bahaya *Major Revision* Disertasi:**  
+  Prof. Guruh berencana melibatkan penguji eksternal dari universitas top dunia (kolega dari Oxford/Harvard). Penguji internasional sangat objektif dan tanpa kompromi. Jika metodologi tidak kokoh, mereka tidak segan menjatuhkan status **Major Revision**. Di tingkat doktoral, *Major Revision* sama saja dengan membuat disertasi baru dari nol!
+* 👥 **Format Perkuliahan: Pembagian 3–4 Kelompok (*Peer-Teaching*):**  
+  Kelas akan dibagi menjadi **3 atau 4 kelompok** untuk memaparkan topik-topik metodologi riset komputasi standar (*teach each other*). Tujuannya agar sesi kuliah bersama Prof. Guruh bisa langsung fokus membahas topik-topik metodologi riset tingkat lanjut yang jarang dikupas di tempat lain.
 
 ---
 
@@ -55,6 +59,9 @@ Disertasi PhD bukanlah satu eksperimen tunggal, melainkan **merajut minimal 3 su
 * **S2:** Menggali sumur diameter 5 meter sedalam 10 meter.
 * **S3:** Mengebor pipa kecil (4 inch) menembus 12 km ke perut bumi sampai memecahkan lapisan batu keras yang belum pernah ditembus orang.
 
+#### 📐 Struktur Bab 3 Disertasi (Minimal 3 Sub-Desain Riset):
+Di Bab 3 (Metodologi), jangan hanya menyajikan satu diagram alir umum yang mengambang. Karena disertasi memiliki minimal 3 RQ / 3 Hipotesis, maka di Bab 3 wajib disajikan **minimal 3 sub-desain riset yang terpisah dan spesifik** (Desain RQ1 untuk evaluasi/SLR, Desain RQ2 untuk rancang bangun metode komputasi baru, dan Desain RQ3 untuk uji ketahanan/robustness) yang berakar dari arsitektur umum riset kita.
+
 ---
 
 ### 4. ⚠️ 3 Jebakan yang Harus Dihindari
@@ -75,7 +82,7 @@ Disertasi PhD bukanlah satu eksperimen tunggal, melainkan **merajut minimal 3 su
 Siklus riset komputasi tidak boleh dilompati agar tidak terjadi *blunder* atau berputar-putar di tengah jalan:
 * **Kuadran A (Scoping & Literasi):** *What do we want to achieve?* Memahami lanskap literatur, teknik *scanning paper* 5 langkah, mencari gap metode, dan memetakan apakah topik ini masih relevan 10 tahun ke depan (11 spesifik skill di Kuadran A dari paper Holz 2006).
 * **Kuadran B (Formulasi Hipotesis):** Merumuskan Research Questions (RQ1, RQ2, RQ3), hipotesis kerja, dan usulan metode perbaikan.  
-  *Peringatan:* Jangan bergantung pada "Syekh ChatGPT" tanpa memvalidasi paper primer di Scopus/IEEE/ACM, karena LLM sering mengklaim suatu ide baru padahal sudah pernah dipublikasikan orang lain bertahun-tahun lalu.
+  *Peringatan keras:* Jangan langsung percaya klaim "Syekh ChatGPT" bahwa suatu ide itu baru tanpa memverifikasi langsung di database ilmiah (IEEE Xplore/ACM/Scopus). Seringkali LLM mengklaim baru hanya karena paper terkait belum masuk di indeksnya.
 * **Kuadran C (Desain Eksperimen):** Menjalankan eksperimen secara paralel (Eksperimen 1, 2, dan 3) menggunakan dataset benchmark.
 * **Kuadran D (Justifikasi & Publikasi):** Uji statistik, pembahasan (*discussion*), penulisan naskah IMRaD, dan submit jurnal.
 
@@ -88,4 +95,9 @@ Prof. Guruh menugaskan kita membaca **2 paper metodologi** yang telah diunggah d
 2. **Serge Demeyer (2011) - IEEE:**  
    *"Research Methods in Computer Science"*
 
-*Catatan Kuliah:* Pertemuan berikutnya akan dimulai tepat pukul **09.30 WIB (10.30 WITA)**.
+---
+
+### 7. 🤝 Catatan Kelas & Soliditas Angkatan
+* **Komunitas Kelas yang Beragam:** Angkatan kita terdiri dari 18 mahasiswa doktoral lintas kampus (UNMUL, Politani Samarinda, UNU Kaltim, UPRI Makassar, Univ. Sapta Mandiri Kalsel, Univ. Djuanda Bogor, ITB Widyagama Lumajang, Undira Jakarta, Univ. Widyatama Bandung, IT Garut, Poltek UNISMA Malang).
+* **Soliditas Komunitas Kaltim:** Sebanyak 8 rekan berasal dari Samarinda/Kaltim, yang sangat memudahkan koordinasi belajar bersama dan tugas kelompok.
+* **Toleransi Jadwal Kuliah:** Perkuliahan sesi berikutnya dimulai tepat pukul **09.30 WIB (10.30 WITA)** dan selesai sebelum pukul **11.00 WIB (12.00 WITA)** agar rekan-rekan di wilayah Indonesia Bagian Tengah dapat menunaikan ibadah salat Jumat tepat waktu.
