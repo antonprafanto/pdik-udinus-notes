@@ -38,6 +38,7 @@ Prof. Guruh menekankan agar kita segera *move on* ke pola pikir level doktoral:
 * Massa ($m$) sudah diteliti Newton, kecepatan cahaya kuadrat ($c^2$) sudah diteliti matematikawan Prancis.
 * Einstein menciptakan sintesis rumusan energinya ($E = mc^2$). Bahkan naskah publikasi pertama Einstein sempat **di-reject oleh reviewer** karena reviewer saat itu tidak mampu membayangkan konsepnya!
 * Kutipan Filosofis: *"Education is not the learning of facts, but the training of the mind to think."* (Bukan sekadar tahu $1+1=2$, tapi paham cara aljabar dan konsep di baliknya bekerja).
+* 🐣 **Analogi "Ayam dan Telur":** Kebaruan ilmiah di bidang Computer Science bukan muncul tiba-tiba dari ruang hampa tanpa asal-usul. Novelty selalu punya alur historis (*historical lineage*): apa kelemahan metode sebelumnya, mengapa metode baru dirancang, dan di titik celah mana metode usulan kita melampaui batas tersebut.
 * Level S3 tidak harus menciptakan rumus fisika kuantum dari nol, tetapi merancang metode/arsitektur komputasi baru yang memiliki pijakan ilmiah kuat untuk mengatasi keterbatasan metode sebelumnya.
 
 ---
@@ -67,6 +68,9 @@ Disertasi PhD bukanlah satu eksperimen tunggal, melainkan **merajut minimal 3 su
 #### 📐 Struktur Bab 3 Disertasi (Minimal 3 Sub-Desain Riset):
 Di Bab 3 (Metodologi), jangan hanya menyajikan satu diagram alir umum yang mengambang. Karena disertasi memiliki minimal 3 RQ / 3 Hipotesis, maka di Bab 3 wajib disajikan **minimal 3 sub-desain riset yang terpisah dan spesifik** (Desain RQ1 untuk evaluasi/SLR, Desain RQ2 untuk rancang bangun metode komputasi baru, dan Desain RQ3 untuk uji ketahanan/robustness) yang berakar dari arsitektur umum riset kita.
 
+#### 🏷️ Keterkaitan Judul Disertasi dengan 3 Elemen Riset:
+Judul disertasi wajib mencerminkan benang merah dari ketiga elemen riset tersebut. Jika di judul tercantum suatu elemen riset namun tidak saling menopang secara terstruktur rapi dengan RQ1, RQ2, dan RQ3, penguji tidak segan meminta kita merombak ulang naskah!
+
 ---
 
 ### 4. ⚠️ 3 Jebakan yang Harus Dihindari
@@ -75,8 +79,9 @@ Di Bab 3 (Metodologi), jangan hanya menyajikan satu diagram alir umum yang menga
    * 🔭 *Sindiran Tajam Prof. Guruh:* *"Bapak mau meneliti apa? Memotret langit? Bapak mabuk memfoto langit! Di luar sana ada teleskop James Webb dan Bosscha Bandung! Mau 'nitiki' (melabeli bintang satu per satu) butuh berapa tahun?!"*  
    * 👉 **Saran Emas Prof. Guruh ("Surga Riset"):** Gunakan **data sekunder benchmark publik** yang sudah teruji, ada paper rujukannya, dan ada source code pembandingnya. Jalankan kodenya, pastikan reproduksibel, lalu buktikan metode baru kita lebih unggul. Setelah terbukti pada benchmark, barulah diujikan ke data primer/lapangan kita jika diperlukan.  
    * *Hati-hati:* Jangan gunakan dataset sembarangan dari Kaggle yang tidak memiliki paper validasi baku.
-2. **Sekadar Mengganti Objek Bukanlah Riset S3:**  
-   Metode deteksi objek yang sama dipakai untuk mendeteksi daun apel, lalu kita ganti mendeteksi daun pisang $\rightarrow$ itu tetap riset level S1. Di S3, yang harus baru adalah **metode komputasinya**.
+2. **Sekadar Mengganti Objek Bukanlah Riset S3 (Jebakan "Planet Pluto"):**  
+   * Jangan beralasan: *"Ini belum pernah ada yang meneliti sampai ke Planet Pluto, Pak!"*  
+   * Prof. Guruh mengingatkan: kita adalah calon doktor Computer Science, bukan Astronomi. Mengganti objek dari daun apel ke daun pisang, atau memotret langit/bakteri langka dengan metode standar CNN yang sama tetaplah riset level S1. Di Computer Science, yang harus baru adalah **metode komputasinya**.
 3. **Wajib Menggunakan Uji Signifikansi Statistik:**  
    Klaim peningkatan akurasi di S3 wajib dipertanggungjawabkan secara saintifik menggunakan uji statistik:
    * **2 Kelompok:** *t-test* (parametrik) atau *Wilcoxon* (non-parametrik).
@@ -86,7 +91,7 @@ Di Bab 3 (Metodologi), jangan hanya menyajikan satu diagram alir umum yang menga
 
 ### 5. 🔄 Model Siklus Riset ABCD
 Siklus riset komputasi tidak boleh dilompati agar tidak terjadi *blunder* atau berputar-putar di tengah jalan:
-* **Kuadran A (Scoping & Literasi):** *What do we want to achieve?* Memahami lanskap literatur, teknik *scanning paper* 5 langkah, mencari gap metode, dan memetakan apakah topik ini masih relevan 10 tahun ke depan (11 spesifik skill di Kuadran A dari paper Holz 2006).
+* **Kuadran A (Scoping & Literasi - Refleksi 10 Tahun):** *What do we want to achieve?* Merenung secara mendalam: *"Apakah 10 tahun ke depan topik riset ini masih relevan dan laku?"* Pahami lanskap literatur, teknik *scanning paper* 5 langkah, cari gap metode, dan kuasai 11 spesifik skill di Kuadran A (Holz 2006) agar riset tidak buntu di tengah jalan.
 * **Kuadran B (Formulasi Hipotesis):** Merumuskan Research Questions (RQ1, RQ2, RQ3), hipotesis kerja, dan usulan metode perbaikan.  
   *Peringatan keras:* Jangan langsung percaya klaim "Syekh ChatGPT" bahwa suatu ide itu baru tanpa memverifikasi langsung di database ilmiah (IEEE Xplore/ACM/Scopus). Seringkali LLM mengklaim baru hanya karena paper terkait belum masuk di indeksnya.
 * **Kuadran C (Desain Eksperimen):** Menjalankan eksperimen secara paralel (Eksperimen 1, 2, dan 3) menggunakan dataset benchmark.
