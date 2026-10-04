@@ -78,6 +78,13 @@ Hakikat filsafat ilmu dalam disertasi dirumuskan dalam 4 pertanyaan mendasar yan
 | **Aksiologi** *(Nilai & Manfaat)* | **Ngapain ke sana? Apa manfaatnya?** | *Novelty* (kebaruan ilmiah) dan *Contribution* (kemanfaatan teoritis maupun praktis bagi sains/masyarakat). |
 | **Posisi Peneliti** | **Di mana posisi Anda saat ini?** | Pemetaan kesiapan data awal, pengalaman riset terdahulu, dan ketajaman identifikasi *gap*. |
 
+### Metafora Moda Transportasi Menuju Tujuan Riset:
+Prof. Aji mengibaratkan proses riset seperti memilih moda perjalanan:
+* Ada peneliti yang menuju tujuannya naik **pesawat terbang** (jalur cepat, efisien, terencana presisi).
+* Ada yang naik **kapal laut** (jalur lambat, terombang-ambing badai saat data hilang atau sensor rusak).
+* Jangan sampai tersesat di **jalur darat** yang sempit, berbatu, dan menanjak terjal tanpa kompas.
+* Yang paling mendasar dari semua perjalanan: **"Tujuan ke sana itu mau ngapain?"** — jika tujuannya tidak membawa kemanfaatan baru (*contribution*), maka perjalanan riset tersebut sia-sia.
+
 ---
 
 ## 5. 💡 Paradigma Baru: *"Data is Golden"* & Pipeline Akuisisi Data
@@ -85,11 +92,17 @@ Hakikat filsafat ilmu dalam disertasi dirumuskan dalam 4 pertanyaan mendasar yan
 Prof. Aji menggarisbawahi perubahan tren riset di era kecerdasan komputasi modern:
 * **Asal-Usul Istilah:** Prof. Aji membagikan kisah saat menjadi reviewer di **UKSW Salatiga** berdiskusi dengan Direktur LPPM UKSW. Jika dahulu *"Silence is golden"*, maka era sekarang **"Data is Golden" (Data adalah Emas)**.
 * **Metode/Algoritma Semakin Mudah Diakses:** Pustaka AI/ML *open-source* dan *AI coding agents* memudahkan implementasi algoritma. Yang paling menantang, langka, dan bernilai tinggi saat ini adalah **ketersediaan, keaslian, dan kualitas data**.
+* **Aturan Mutlak Penggunaan Data Publik:**  
+  * Dataset publik/benchmark (*Kaggle, UCI, ImageNet*) sudah terlalu sering dieksploitasi oleh ribuan peneliti dunia.
+  * **Mahasiswa S3 dilarang keras menelan mentah-mentah data publik apa adanya tanpa modifikasi!** Jika menggunakan data publik, wajib ada inovasi pada modifikasi pipeline, augmentasi orisinal, atau rekayasa fitur baru.
+  * Standar emas tertinggi bagi disertasi doktor adalah mengakuisisi **Data Primer** langsung dari instrumen empiris di lapangan.
 * **Novelty Tidak Harus Selalu Algoritma Baru:**  
   Kebaruan tingkat doktoral dapat dibangun melalui **Pipeline Perencanaan Data (*Data Pipe Planning*)**:
   $$\text{Teknik Akuisisi Data} \longrightarrow \text{Pembersihan (Cleaning)} \longrightarrow \text{Analisis Data dan Model} \longrightarrow \text{Uji Output dan Validasi}$$
 * **Pelajaran dari Studi Kasus BMKG (Riset Prof. Aji):**
   * Sensor cuaca IoT yang merekam data tiap 30 menit ($17.520$ *records*/tahun) kerap mengalami 3%–4% data hilang (*missing*) atau rusak akibat cuaca buruk, sambaran petir, degradasi kalibrasi alat penakar (*ombrometer*), atau gangguan transmisi transceiver telekomunikasi.
+  * **Pembeda Kritis: Data Kosong vs. Data Rusak (Outlier Ekstrim 999):** Data terkirim namun bernilai liar (misal skala normal 0–5 melonjak ke **999**) jauh lebih merusak proses pelatihan model AI dibanding data kosong (*null*).
+  * **Prinsip Propagasi Error pada Prediksi Jangka Panjang (30 Hari):** Jika data awal ($t_0$) tidak valid, maka akurasi prediksi untuk 1 minggu apalagi **30 hari ke depan** akan mengalami penurunan akurasi yang sangat curam (*cascading error*).
   * Solusi lama dengan interpolasi matematika hanya mencapai akurasi 85%–90%.
   * Riset menggunakan model AI (ANN) berhasil mencapai akurasi imputasi $>95\%$, sekaligus memangkas kebutuhan data historis *time-series* dari standar lama 30 tahun menjadi cukup **5–10 tahun representatif**.
   * *Perbedaan Riset Terapan vs Riset Doktoral:* Riset terapan (Kedaireka) menuntut aplikasi siap pakai berantarmuka UI/UX, sedangkan riset doktoral/jurnal Scopus cukup membuktikan validitas model komputasi matematisnya.
