@@ -15,7 +15,7 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 | 1 | **Research Methodology** | Prof. Dr. Guruh Fajar Shidik, S.Kom., M.Cs. | [`01-research-methodology/`](./01-research-methodology/) | 🟢 Aktif |
 | 2 | **Advanced Software Engineering** | Tim Dosen PDIK | `02-advanced-software-engineering/` | ⏳ Terjadwal |
 | 3 | **Philosophy of Science** | Prof. Dr. Aji Supriyanto, M.Kom. | [`03-philosophy-of-science/`](./03-philosophy-of-science/) | 🟢 Aktif |
-| 4 | **Advanced Soft Computing** | Prof. Dr. A. Zainul Fanani, S.Si., M.Kom. | `04-advanced-soft-computing/` | ⏳ Terjadwal |
+| 4 | **Advanced Soft Computing** | Prof. Dr. A. Zainul Fanani, S.Si., M.Kom. | [`04-advanced-soft-computing/`](./04-advanced-soft-computing/) | 🟢 Aktif |
 | 5 | **Advanced Computer Vision** | Dr. M. Arief Soeleman, M.Kom. | `05-advanced-computer-vision/` | ⏳ Terjadwal |
 | 6 | **Advanced Data Mining** | Tim Dosen PDIK | `06-advanced-data-mining/` | ⏳ Terjadwal |
 
@@ -30,6 +30,10 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 ### 🔹 [03. Philosophy of Science (Filsafat Ilmu)](./03-philosophy-of-science/)
 * 📄 **[Pertemuan 1: Filosofi Riset Disertasi, Paradigma Data is Golden, & Linieritas Guru Besar](./03-philosophy-of-science/pertemuan-01-filosofi-riset-dan-linieritas-guru-besar.md)**
   * *Intisari:* Strategi linieritas menuju Guru Besar, 4 pertanyaan filosofis dasar, paradigma *"Data is Golden"*, novelty akuisisi data BMKG, paradoks novelty vs contribution, target 30 paper Scopus Q1/Q2, dan tips memilih promotor.
+
+### 🔹 [04. Advanced Soft Computing (Komputasi Lunak Lanjut)](./04-advanced-soft-computing/)
+* 📄 **[Pertemuan 1: Pengantar Soft Computing, Asesmen Doktoral, & Roadmap 3 Tugas Berkelanjutan](./04-advanced-soft-computing/pertemuan-01-pengantar-soft-computing-dan-kontrak-tugas.md)**
+  * *Intisari:* Penilaian 100% *Project-Based* (bebas UTS/UAS tertulis), roadmap 3 tugas berjenjang menuju draf paper Scopus (Tugas 1: Usulan & Review 7 paper, Tugas 2: Proposed Method, Tugas 3: Paper IMRaD siap submit), dan peran Soft Computing melahirkan kebaruan (*improvement*).
 
 ---
 
