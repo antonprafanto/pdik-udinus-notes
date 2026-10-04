@@ -14,7 +14,7 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 |:---:|---|---|:---:|:---:|
 | 1 | **Research Methodology** | Prof. Dr. Guruh Fajar Shidik, S.Kom., M.Cs. | [`01-research-methodology/`](./01-research-methodology/) | 🟢 Aktif |
 | 2 | **Advanced Software Engineering** | Tim Dosen PDIK | `02-advanced-software-engineering/` | ⏳ Terjadwal |
-| 3 | **Philosophy of Science** | Prof. Dr. Aji Supriyanto, M.Kom. | `03-philosophy-of-science/` | ⏳ Terjadwal |
+| 3 | **Philosophy of Science** | Prof. Dr. Aji Supriyanto, M.Kom. | [`03-philosophy-of-science/`](./03-philosophy-of-science/) | 🟢 Aktif |
 | 4 | **Advanced Soft Computing** | Prof. Dr. A. Zainul Fanani, S.Si., M.Kom. | `04-advanced-soft-computing/` | ⏳ Terjadwal |
 | 5 | **Advanced Computer Vision** | Dr. M. Arief Soeleman, M.Kom. | `05-advanced-computer-vision/` | ⏳ Terjadwal |
 | 6 | **Advanced Data Mining** | Tim Dosen PDIK | `06-advanced-data-mining/` | ⏳ Terjadwal |
@@ -26,6 +26,10 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 ### 🔹 [01. Research Methodology (Metodologi Riset)](./01-research-methodology/)
 * 📄 **[Pertemuan 1: Pengantar Riset Disertasi & Filosofi PhD](./01-research-methodology/pertemuan-01-pengantar-riset-disertasi.md)**
   * *Intisari:* Pergeseran pola pikir (Bloom: S1 vs S2 vs S3), formulasi minimal 3 elemen riset (Research Questions), bahaya jebakan data primer dari nol, dan siklus riset ABCD.
+
+### 🔹 [03. Philosophy of Science (Filsafat Ilmu)](./03-philosophy-of-science/)
+* 📄 **[Pertemuan 1: Filosofi Riset Disertasi, Paradigma Data is Golden, & Linieritas Guru Besar](./03-philosophy-of-science/pertemuan-01-filosofi-riset-dan-linieritas-guru-besar.md)**
+  * *Intisari:* Strategi linieritas menuju Guru Besar, 4 pertanyaan filosofis dasar, paradigma *"Data is Golden"*, novelty akuisisi data BMKG, paradoks novelty vs contribution, target 30 paper Scopus Q1/Q2, dan tips memilih promotor.
 
 ---
 
