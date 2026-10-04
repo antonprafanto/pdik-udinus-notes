@@ -16,7 +16,7 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 | 2 | **Advanced Software Engineering** | Tim Dosen PDIK | `02-advanced-software-engineering/` | ⏳ Terjadwal |
 | 3 | **Philosophy of Science** | Prof. Dr. Aji Supriyanto, M.Kom. | [`03-philosophy-of-science/`](./03-philosophy-of-science/) | 🟢 Aktif |
 | 4 | **Advanced Soft Computing** | Prof. Dr. A. Zainul Fanani, S.Si., M.Kom. | [`04-advanced-soft-computing/`](./04-advanced-soft-computing/) | 🟢 Aktif |
-| 5 | **Advanced Computer Vision** | Dr. M. Arief Soeleman, M.Kom. | `05-advanced-computer-vision/` | ⏳ Terjadwal |
+| 5 | **Advanced Computer Vision** | Dr. M. Arief Soeleman, M.Kom. | [`05-advanced-computer-vision/`](./05-advanced-computer-vision/) | 🟢 Aktif |
 | 6 | **Advanced Data Mining** | Tim Dosen PDIK | `06-advanced-data-mining/` | ⏳ Terjadwal |
 
 ---
@@ -34,6 +34,10 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 ### 🔹 [04. Advanced Soft Computing (Komputasi Lunak Lanjut)](./04-advanced-soft-computing/)
 * 📄 **[Pertemuan 1: Pengantar Soft Computing, Asesmen Doktoral, & Roadmap 3 Tugas Berkelanjutan](./04-advanced-soft-computing/pertemuan-01-pengantar-soft-computing-dan-kontrak-tugas.md)**
   * *Intisari:* Penilaian 100% *Project-Based* (bebas UTS/UAS tertulis), roadmap 3 tugas berjenjang menuju draf paper Scopus (Tugas 1: Usulan & Review 7 paper, Tugas 2: Proposed Method, Tugas 3: Paper IMRaD siap submit), dan peran Soft Computing melahirkan kebaruan (*improvement*).
+
+### 🔹 [05. Advanced Computer Vision (Visi Komputer Lanjut)](./05-advanced-computer-vision/)
+* 📄 **[Pertemuan 1: Fondasi Visi Komputer, Kerangka Kerja Klasik 3R, & Ketangguhan Lingkungan Riil](./05-advanced-computer-vision/pertemuan-01-fondasi-visi-komputer-dan-framework-3r.md)**
+  * *Intisari:* Kerangka kerja klasik 3R (*Reconstruction, Recognition, Reorganization*), hierarki deteksi vs. rekognisi, tantangan lingkungan riil (iluminasi, oklusi, kabut/asap), dan roadmap riset 5 tahun untuk Disertasi & Hibah BIMA.
 
 ---
 
