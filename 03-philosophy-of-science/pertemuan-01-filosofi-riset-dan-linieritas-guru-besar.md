@@ -57,7 +57,7 @@ Prof. Aji menggarisbawahi perubahan tren riset di era kecerdasan komputasi moder
 * **Metode/Algoritma Semakin Mudah Diakses:** Pustaka AI/ML *open-source* dan *AI coding agents* memudahkan implementasi algoritma. Yang paling menantang dan bernilai tinggi saat ini adalah **ketersediaan, keaslian, dan kualitas data**.
 * **Novelty Tidak Harus Selalu Algoritma Baru:**  
   Kebaruan tingkat doktoral dapat dibangun melalui **Pipeline Perencanaan Data (*Data Pipe Planning*)**:
-  $$\text{Teknik Akuisisi Data} \longrightarrow \text{Pembersihan (Cleaning)} \longrightarrow \text{Analisis Data \& Model} \longrightarrow \text{Uji Output / Validasi}$$
+  $$\text{Teknik Akuisisi Data} \longrightarrow \text{Pembersihan (Cleaning)} \longrightarrow \text{Analisis Data dan Model} \longrightarrow \text{Uji Output / Validasi}$$
 * **Pelajaran dari Studi Kasus BMKG (Riset Prof. Aji):**
   * Pengambilan data cuaca via sensor IoT tiap 30 menit ($17.520$ *records*/tahun) kerap mengalami 3%–4% data hilang (*missing*) atau rusak akibat cuaca buruk, sambaran petir, degradasi kalibrasi sensor, atau gangguan sinyal transmisi.
   * Solusi lama dengan interpolasi matematika hanya mencapai akurasi 85%–90%.
