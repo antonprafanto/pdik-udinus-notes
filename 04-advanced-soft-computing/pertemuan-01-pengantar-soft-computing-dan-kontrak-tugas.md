@@ -99,7 +99,10 @@ Prof. Fanani menekankan bahwa riset doktoral wajib menghadirkan **Improvement / 
   *Patokan Kampus:* Tepat di jantung kota Semarang dekat **Tugu Muda dan Lawang Sewu**. *"Kalau gak pernah ke Udinus jangan harap lulus dulu! 3 tahun mosok gak pernah ke Udinus."*
 * **Solidaritas Angkatan 2026 (70% Mahasiswa Kalimantan):**  
   Prof. Fanani mendorong mahasiswa membuat grup mandiri angkatan 2026 untuk saling mereview draf tugas, memecahkan kebuntuan koding/algoritma, dan menjaga semangat agar seluruh rekan satu angkatan dapat lulus bersama tepat 3 tahun.
-* **Presensi Akademik:** Presensi perkuliahan dipantau melalui portal akademik `mhs.dinus.ac.id` / SIADIN.
+* **Format Perkuliahan Mingguan (Mulai Pertemuan 2):** $\sim 1$ jam materi teori dasar/lanjutan Soft Computing, dilanjutkan sesi interaktif bedah topik dan konsultasi progres riset mahasiswa secara bergantian satu per satu.
+* **Portal Akademik & Upload Tugas:**  
+  - **KULINO (`kulino.dinus.ac.id`):** LMS resmi untuk mengunduh materi dan mengunggah (*upload*) berkas Tugas 1, 2, dan 3.  
+  - **SIADIN / Mahasiswa (`mhs.dinus.ac.id`):** Portal presensi perkuliahan mahasiswa per sesi.
 
 ---
 *Catatan ini dirangkum dari perkuliahan perdana Komputasi Lunak Lanjut PDIK UDINUS untuk keperluan belajar mandiri dan berbagi pengetahuan.*
