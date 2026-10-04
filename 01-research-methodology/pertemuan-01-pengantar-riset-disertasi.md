@@ -73,8 +73,9 @@ Disertasi PhD bukanlah satu eksperimen tunggal, melainkan **merajut minimal 3 su
 
 ### 5. 🔄 Model Siklus Riset ABCD
 Siklus riset komputasi tidak boleh dilompati agar tidak terjadi *blunder* atau berputar-putar di tengah jalan:
-* **Kuadran A (Scoping & Literasi):** *What do we want to achieve?* Memahami lanskap literatur, teknik *scanning paper*, mencari gap metode, dan memetakan apakah topik ini masih relevan 10 tahun ke depan.
-* **Kuadran B (Formulasi Hipotesis):** Merumuskan Research Questions (RQ1, RQ2, RQ3), hipotesis kerja, dan usulan metode perbaikan.
+* **Kuadran A (Scoping & Literasi):** *What do we want to achieve?* Memahami lanskap literatur, teknik *scanning paper* 5 langkah, mencari gap metode, dan memetakan apakah topik ini masih relevan 10 tahun ke depan (11 spesifik skill di Kuadran A dari paper Holz 2006).
+* **Kuadran B (Formulasi Hipotesis):** Merumuskan Research Questions (RQ1, RQ2, RQ3), hipotesis kerja, dan usulan metode perbaikan.  
+  *Peringatan:* Jangan bergantung pada "Syekh ChatGPT" tanpa memvalidasi paper primer di Scopus/IEEE/ACM, karena LLM sering mengklaim suatu ide baru padahal sudah pernah dipublikasikan orang lain bertahun-tahun lalu.
 * **Kuadran C (Desain Eksperimen):** Menjalankan eksperimen secara paralel (Eksperimen 1, 2, dan 3) menggunakan dataset benchmark.
 * **Kuadran D (Justifikasi & Publikasi):** Uji statistik, pembahasan (*discussion*), penulisan naskah IMRaD, dan submit jurnal.
 
