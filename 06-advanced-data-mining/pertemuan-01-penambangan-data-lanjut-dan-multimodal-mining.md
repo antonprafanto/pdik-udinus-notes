@@ -66,7 +66,8 @@ Prof. Heru Agus Santoso mengelompokkan spektrum riset data mining modern ke dala
 ### C. Explainable AI (XAI) & Pembuktian Berstandar Internasional
 * **Tantangan Kotak Hitam (*Black Box*):** Algoritma deep learning memiliki akurasi tinggi namun tidak transparan. Praktisi klinis dan industri menolak mengadopsi model tanpa pemahaman alasan logis di balik keputusannya.
 * **Metode Utama:** **SHAP (*SHapley Additive exPlanations*)**, **LIME**, **Grad-CAM**, dan *Counterfactual Explanations*.
-* **Studi Kasus Jurnal Elsevier (Prof. Heru, 2025):**
+* **Studi Kasus Jurnal Elsevier (Prof. Heru dkk., 2025):**
+  - **Artikel Ilmiah:** *"Enhancing nutritional status prediction through attention-based deep learning and explainable AI"* (Jurnal *Intelligence-Based Medicine*, Elsevier, Vol. 11, 2025).
   - Prediksi status gizi balita (*undernutrition/stunting*).
   - Menerapkan SHAP untuk mengekstraksi variabel paling berpengaruh terhadap stunting.
   - **Kunci Publikasi Internasional:** Menyelaraskan hasil matematis SHAP dengan **standar internasional WHO (*World Health Organization*)**. Terbukti bahwa balita stunting variabel paling determinan adalah **tinggi badan (kerdil)**, bukan berat badan. Bayi kurus masih dapat dipulihkan dengan nutrisi jangka pendek, namun keterlambatan tinggi badan membuktikan gangguan pertumbuhan kronis jangka panjang. Penyelarasan matematis XAI dengan standar internasional inilah yang melahirkan publikasi jurnal bereputasi tinggi.
@@ -82,7 +83,7 @@ Prof. Heru Agus Santoso mengelompokkan spektrum riset data mining modern ke dala
 ### E. Fairness-Aware Data Mining & Eliminasi Bias
 * **Prinsip Keadilan:** Memastikan model penambangan data bebas dari bias sistemik terhadap atribut sensitif: **jenis kelamin (gender), ras, warna kulit, dan status sosio-ekonomi**.
 * **Uji Generalisasi:** Model yang dilatih pada populasi tertentu (misal: Indonesia) harus tetap adil dan akurat saat diuji pada populasi demografi berbeda (Timur Tengah, Afrika, atau negara maju).
-* Reviewer jurnal internasional (khususnya Q1) sangat ketat mengaudit potensi diskriminasi algoritmik dan menuntut justifikasi keadilan data secara transparan.
+* **Pengalaman Empiris Publikasi Q1 Prof. Heru:** Riset *Visually Impaired Masseur Assistance Application (VIMAA)* di jurnal bereputasi tinggi **Q1 (*Assistive Technology*, Taylor & Francis)** bersama peneliti Universitas Diponegoro (UNDIP) dan Pertuni Kota Semarang. Reviewer internasional sangat ketat mengaudit potensi diskriminasi algoritmik terkait variabel gender dan identitas komunitas, sehingga menuntut justifikasi keadilan data secara transparan (*fairness-aware machine learning*).
 
 ---
 
