@@ -19,6 +19,13 @@ Mata kuliah **Penambangan Data Lanjut (*Advanced Data Mining*)** pada Program Do
 * Pada jenjang sarjana (S1), proses penambangan data diajarkan menggunakan kerangka **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)**: *Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment*.
 * Prof. Heru menegaskan bahwa di level S3, pengulangan teori CRISP-DM standar tidak lagi relevan. Mahasiswa doktoral harus langsung membedah **delapan pilar advance data mining kontemporer** yang menjadi topik utama di komunitas ilmiah global.
 
+### C. Kerangka Penyelidikan Doktoral (Inquiry Triangle & Research Mapping)
+Prof. Heru menekankan bahwa mahasiswa S3 tidak boleh terburu-buru menulis kode program (*"jangan langsung coding dulu, pelan-pelan pahami teorinya"*). Mahasiswa harus melalui tiga tahapan eksplorasi:
+1. **What:** Memahami hakikat definisi, teori dasar, dan formulasi matematis metode.
+2. **Why:** Menemukan alasan mengapa teknik tersebut dipilih dan kelemahan apa dari metode terdahulu yang diperbaiki.
+3. **Outcome / Benefit:** Mengukur dampak kebaruan (*novelty*) dan manfaat nyata yang dihasilkan bagi keilmuan dan masyarakat.
+4. **Pemetaan Posisi Riset (*Research Coverage*):** Peneliti harus mampu memetakan letak risetnya pada pohon taksonomi keilmuan (contoh pada *Uncertain Graph Mining*: apakah berada di ranah *Query Problems, Computational Problems,* atau *Algorithmic Problems*).
+
 ---
 
 ## 1. 🧱 Delapan Pilar Advance Data Mining Kontemporer
