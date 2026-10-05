@@ -21,3 +21,5 @@ Fokus mata kuliah ini mengeksplorasi paradigma penambangan data tingkat lanjut (
       * **Privacy-Preserving Mining (PPDM) & Federated Learning:** Penambangan terdistribusi tanpa pemindahan data mentah (*zero raw data sharing*).
       * **Spatio-Temporal & Concept Drift:** Integrasi data sekuensial waktu (LSTM) dan spasial (CNN) pada sensor IoT *screening* kesehatan masyarakat, serta analogi OOP pada pergeseran konsep (*Class Concept vs Instance*).
     * Telaah metodologis disinformasi/hoaks multimodal (masalah terstruktur vs tidak terstruktur, NER, dan reduksi dimensi teks XAI).
+* 🐍 **[Skrip Python: Simulasi Hands-On Multimodal Feature Fusion & FP-Growth](./simulasi_hands_on_multimodal_mining.py)**
+  * *Implementasi mandiri:* Sintesis 100 pasien $\times$ 2.435 fitur gabungan, klasterisasi K-Means ($k=3$ dengan sebaran 26, 27, 47), diskretisasi data kontinu, dan penambangan aturan asosiasi FP-Growth untuk ekstraksi *Disease Phenotype*.

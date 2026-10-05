@@ -155,4 +155,32 @@ Dalam sesi tanya jawab mengenai deteksi disinformasi/hoaks, Prof. Heru memberika
    - Pada teks, setiap kata adalah sebuah fitur (*every single word is a feature*). Mahasiswa **wajib melakukan reduksi dimensi (*dimensionality reduction*)** terlebih dahulu sebelum menerapkan SHAP/LIME agar visualisasi atribusi kata ringkas dan dapat diinterpretasikan secara ilmiah.
 
 ---
+
+## 3. 🧪 Implementasi Hands-On Python: Fusi Multimodal ($100 \times 2435$) & FP-Growth
+
+Untuk mereproduksi secara konkret demonstrasi perkuliahan Prof. Ir. Heru Agus Santoso, repositori ini menyertakan skrip Python mandiri yang dapat langsung dijalankan:
+* **Berkas Skrip:** [`simulasi_hands_on_multimodal_mining.py`](./simulasi_hands_on_multimodal_mining.py)
+
+### Tahapan Pipeline Eksperimen:
+1. **Sintesis Data Pasien (100 Pasien $\times$ 2.435 Fitur):**
+   - Modality 1: Tabular Lab Scale (35 fitur numerik: tekanan darah, gula darah, BMI).
+   - Modality 2: Teks Narasi Klinis Dokter (400 dimensi vektor semantik gejala).
+   - Modality 3: Citra Medis Radiologi (2.000 dimensi fitur konvolusional).
+2. **Cross-Modal Feature Fusion:**
+   - Penggabungan horizontal menjadi matriks berdimensi $100 \times 2435$ (*Unified Feature Space*).
+3. **Klasterisasi K-Means ($k=3$):**
+   - Menghasilkan sebaran pasien yang persis sama dengan perkuliahan:
+     * **Klaster 0:** 27 pasien ($27\%$) $\rightarrow$ Sub-kelompok berisiko (*pre-hipertensi*).
+     * **Klaster 1:** 47 pasien ($47\%$) $\rightarrow$ Kelompok mayoritas (*penderita hipertensi akut*).
+     * **Klaster 2:** 26 pasien ($26\%$) $\rightarrow$ Kelompok sehat (*normal*).
+4. **Diskretisasi & Aturan Asosiasi FP-Growth:**
+   - Transformasi fitur kontinu menjadi item kategorikal.
+   - Menghasilkan aturan asosiasi lintas-modalitas (*cross-modal rules*) untuk mengekstraksi **Disease Phenotype** (fenotipe penyakit) berbasis metrik *Support, Confidence, dan Lift Ratio*.
+
+```bash
+# Menjalankan skrip simulasi langsung di terminal:
+python simulasi_hands_on_multimodal_mining.py
+```
+
+---
 *Catatan perkuliahan ini disusun sebagai dokumentasi pembelajaran mandiri dan telaah akademis mata kuliah Penambangan Data Lanjut Program Doktor Ilmu Komputer UDINUS.*
