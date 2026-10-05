@@ -17,7 +17,7 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 | 3 | **Philosophy of Science** | Prof. Dr. Aji Supriyanto, M.Kom. | [`03-philosophy-of-science/`](./03-philosophy-of-science/) | 🟢 Aktif |
 | 4 | **Advanced Soft Computing** | Prof. Dr. A. Zainul Fanani, S.Si., M.Kom. | [`04-advanced-soft-computing/`](./04-advanced-soft-computing/) | 🟢 Aktif |
 | 5 | **Advanced Computer Vision** | Dr. M. Arief Soeleman, M.Kom. | [`05-advanced-computer-vision/`](./05-advanced-computer-vision/) | 🟢 Aktif |
-| 6 | **Advanced Data Mining** | Tim Dosen PDIK | `06-advanced-data-mining/` | ⏳ Terjadwal |
+| 6 | **Advanced Data Mining** | Prof. Ir. Heru Agus Santoso, Ph.D., IPM., ASEAN Eng. | [`06-advanced-data-mining/`](./06-advanced-data-mining/) | 🟢 Aktif |
 
 ---
 
@@ -38,6 +38,10 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 ### 🔹 [05. Advanced Computer Vision (Visi Komputer Lanjut)](./05-advanced-computer-vision/)
 * 📄 **[Pertemuan 1: Fondasi Visi Komputer, Kerangka Kerja Klasik 3R, & Ketangguhan Lingkungan Riil](./05-advanced-computer-vision/pertemuan-01-fondasi-visi-komputer-dan-framework-3r.md)**
   * *Intisari:* Kerangka kerja klasik 3R (*Reconstruction, Recognition, Reorganization*), hierarki deteksi vs. rekognisi, matematika temporal video (25-30 fps, 1.500 fpm), ketangguhan lingkungan ekstrem (iluminasi, oklusi, kabut asap Kalimantan), rekam jejak riset empiris Dr. Arief Soeleman, konvergensi ke *Autonomous Edge Vision*, roadmap 5 tahun BIMA, serta pesan linieritas karir menuju Guru Besar (*Professor of Object Detection*).
+
+### 🔹 [06. Advanced Data Mining (Penambangan Data Lanjut)](./06-advanced-data-mining/)
+* 📄 **[Pertemuan 1: Paradigma Baru Penambangan Data Lanjut, Fusi Multimodal, & Explainable AI](./06-advanced-data-mining/pertemuan-01-penambangan-data-lanjut-dan-multimodal-mining.md)**
+  * *Intisari:* Dekonstruksi CRISP-DM menuju *happening research*, 8 pilar advance data mining (fusi multimodal $100 \times 2435$, text-guided RAG, SHAP XAI berstandar WHO, causal discovery, fairness-aware, GNN temporal, federated learning PPDM, spatio-temporal IoT screening, concept drift OOP analogi), serta distingsi masalah terstruktur vs tidak terstruktur.
 
 ---
 
