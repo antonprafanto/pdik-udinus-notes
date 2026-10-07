@@ -101,22 +101,8 @@ Berdasarkan pengkajian mendalam terhadap **3 berkas PDF resmi** perkuliahan yang
   * **EA (Evolutionary Algorithms / Evolutionary Computation):** Pencarian dan optimasi terinspirasi mekanisme evolusi biologis (*evolution-inspired search*).
   * **SI (Swarm Intelligence):** Optimasi berbasis populasi terinspirasi perilaku kolektif kawanan biologis (*collective behavior*).
 * **Diagram Venn Relasi AI, Soft Computing, & Machine Learning (Slide Kontrak Halaman 2):**
-  ```text
-  ┌────────────────────────────────────────────────────────────────────────┐
-  │                   ARTIFICIAL INTELLIGENCE (AI)                         │
-  │                                                                        │
-  │    ┌───────────────────────────┐      ┌───────────────────────────┐    │
-  │    │      SOFT COMPUTING       │      │     MACHINE LEARNING      │    │
-  │    │                           │      │                           │    │
-  │    │  • Fuzzy Logic (FS)       │  ┌───┴───┐                       │    │
-  │    │  • Evolutionary           │  │Neural │  • Statistical        │    │
-  │    │    Algorithms (EA)        │  │Net-   │    Learning           │    │
-  │    │  • Swarm Intelligence     │  │works  │  • Decision Trees     │    │
-  │    │    (SI)                   │  │(NN)   │  • SVM, Regression    │    │
-  │    │                           │  └───┬───┘                       │    │
-  │    └───────────────────────────┘      └───────────────────────────┘    │
-  └────────────────────────────────────────────────────────────────────────┘
-  ```
+
+  ![Diagram Venn Relasi AI, Soft Computing, dan Machine Learning](./assets/venn_soft_computing_ai_ml.png)
 
 ### D. Mengapa Disebut 'Soft'? (Hard Computing vs Soft Computing) (Slide 7–8)
 * **Hard Computing:** Berpijak pada aturan deterministik (*deterministic rules*), representasi eksak, komputasi presisi analitis, dan batasan ketat (*strict constraints*). Tepat digunakan ketika model matematis, data masukan, dan aturan sistem bernilai pasti.
