@@ -70,64 +70,104 @@ Penugasan perkuliahan dirancang terstruktur dalam 3 tahapan yang saling menyambu
 
 ---
 
-## 2. 🧠 Fondasi Teoretis, Taksonomi, & Peran Strategis Soft Computing (Slide Pertemuan 01)
+## 2. 🧠 Fondasi Teoretis, Taksonomi, & Peran Strategis Soft Computing (Slide Pertemuan 01 & Dokumen Kontrak)
 
-Sesuai materi slide presentasi resmi Prof. Dr. Ahmad Zainul Fanani (*Introduction to Soft Computing*), bidang ini diposisikan sebagai filosofi komputasi tingkat tinggi untuk memecahkan persoalan dunia nyata yang tidak dapat diselesaikan dengan matematika analitis eksak:
+Berdasarkan pengkajian mendalam terhadap **3 berkas PDF resmi** perkuliahan yang diunggah Prof. Dr. Ahmad Zainul Fanani, S.Si., M.Kom.:
 
-### A. Definisi & Formula Fundamental Soft Computing
-* **Definisi Formal:** Soft Computing (SC) adalah paradigma komputasi yang menekankan **toleransi terhadap ketidakpastian (*uncertainty*)**, **ketidaktepatan (*imprecision*)**, dan **aproksimasi (*approximation*)**.
-* **Tujuan Utama:** Bukan semata-mata mencari solusi eksak mutlak, melainkan menghasilkan solusi yang **dapat diterima (*acceptable*)**, **adaptif (*adaptive*)**, **kokoh (*robust*)**, atau **mendekati optimal (*near-optimal*)**.
-* **Formula Inti Soft Computing:**
+### A. Pertanyaan Pemantik & 6 Capaian Pembelajaran Doktoral (Learning Outcomes)
+* **Pertanyaan Pemantik Riset (Slide 2):**  
+  > *"WHY DO WE NEED SOFT COMPUTING? Apakah semua masalah komputasi dapat dirumuskan dengan aturan yang pasti, data yang lengkap, dan solusi eksak?"*
+* **6 Capaian Pembelajaran Doktoral / Learning Outcomes (Slide 3):**
+  1. Menjelaskan konsep, karakteristik, dan filosofi dasar Soft Computing.
+  2. Membedakan secara presisi antara *hard computing*, *soft computing*, *machine learning*, dan *intelligent systems*.
+  3. Mengidentifikasi dan menjelaskan sumber ketidakpastian (*uncertainty*), ketidaktepatan (*imprecision*), dan kompleksitas dalam masalah komputasi nyata.
+  4. Memetakan *Fuzzy Logic*, *Neural Computing*, *Evolutionary Computation*, dan *Swarm Intelligence* sebagai pilar pendekatan Soft Computing.
+  5. Menganalisis secara kritis kapan pendekatan Soft Computing layak dan tepat digunakan dalam penelitian doktoral.
+  6. Merumuskan pertanyaan riset awal (*research questions*) terkait penerapan Soft Computing untuk melahirkan *novelty*.
+
+### B. Konteks Luas AI & Pipeline 5 Tahap Sistem Cerdas (Slide 4–5)
+* **AI sebagai Ekosistem:** AI adalah bidang yang mempelajari sistem komputasi untuk melakukan tugas-tugas cerdas (*reasoning, learning, perception, planning, optimization, decision making*). AI bukan satu algoritma tunggal, melainkan sebuah ekosistem pendekatan dan teknik.
+* **Pipeline Rantai Nilai Sistem Cerdas (*Intelligent System Pipeline*):**
+  $$\text{Sensing} \longrightarrow \text{Representation} \longrightarrow \text{Reasoning / Learning} \longrightarrow \text{Decision} \longrightarrow \text{Action}$$
+* **Fokus Utama Sistem Cerdas:** Menghasilkan perilaku yang adaptif (*adaptive behaviour*) dan mampu memecahkan masalah (*problem-solving*) di tengah lingkungan yang dinamis.
+
+### C. Definisi Formal, Formula Fundamental, & Diagram Venn Hubungan Himpunan
+* **Definisi Formal:** Soft Computing (SC) adalah paradigma komputasi yang menekankan toleransi terhadap **ketidakpastian (*uncertainty*)**, **ketidaktepatan (*imprecision*)**, dan **aproksimasi (*approximation*)**.
+* **Tujuan Utama:** Menghasilkan solusi yang dapat diterima (*acceptable*), adaptif (*adaptive*), kokoh (*robust*), atau mendekati optimal (*near-optimal*) dengan biaya komputasi rendah.
+* **Formula Fundamental Soft Computing:**
   $$SC = FS + NN + EA + SI$$
   * **FS (Fuzzy Systems / Fuzzy Logic):** Penalaran di bawah ketidakjelasan (*reasoning under vagueness*).
   * **NN (Neural Networks / Neural Computing):** Pembelajaran pemetaan non-linear dari data (*learning nonlinear mappings*).
   * **EA (Evolutionary Algorithms / Evolutionary Computation):** Pencarian dan optimasi terinspirasi mekanisme evolusi biologis (*evolution-inspired search*).
   * **SI (Swarm Intelligence):** Optimasi berbasis populasi terinspirasi perilaku kolektif kawanan biologis (*collective behavior*).
+* **Diagram Venn Relasi AI, Soft Computing, & Machine Learning (Slide Kontrak Halaman 2):**
+  ```text
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                   ARTIFICIAL INTELLIGENCE (AI)                         │
+  │                                                                        │
+  │    ┌───────────────────────────┐      ┌───────────────────────────┐    │
+  │    │      SOFT COMPUTING       │      │     MACHINE LEARNING      │    │
+  │    │                           │      │                           │    │
+  │    │  • Fuzzy Logic (FS)       │  ┌───┴───┐                       │    │
+  │    │  • Evolutionary           │  │Neural │  • Statistical        │    │
+  │    │    Algorithms (EA)        │  │Net-   │    Learning           │    │
+  │    │  • Swarm Intelligence     │  │works  │  • Decision Trees     │    │
+  │    │    (SI)                   │  │(NN)   │  • SVM, Regression    │    │
+  │    │                           │  └───┬───┘                       │    │
+  │    └───────────────────────────┘      └───────────────────────────┘    │
+  └────────────────────────────────────────────────────────────────────────┘
+  ```
 
-### B. Mengapa Disebut 'Soft'? (Hard Computing vs Soft Computing)
-* **Hard Computing:** Berpijak pada aturan deterministik (*deterministic rules*), representasi eksak, komputasi presisi, dan batasan ketat (*strict constraints*). Relevan jika model matematika, data, dan aturan relatif pasti.
-* **Soft Computing:** Mengizinkan derajat keanggotaan (*degree of membership*), probabilitas, toleransi kesalahan (*error tolerance*), pencarian heuristik, dan solusi aproksimatif. Relevan ketika sistem dunia nyata terlalu kompleks untuk dimodelkan secara eksak.
-* **Makna Filosofis 'Soft':** *"Soft bukan berarti lemah; 'soft' merujuk pada fleksibilitas sistem terhadap ketidakpastian dan ketidaktepatan."*
+### D. Mengapa Disebut 'Soft'? (Hard Computing vs Soft Computing) (Slide 7–8)
+* **Hard Computing:** Berpijak pada aturan deterministik (*deterministic rules*), representasi eksak, komputasi presisi analitis, dan batasan ketat (*strict constraints*). Tepat digunakan ketika model matematis, data masukan, dan aturan sistem bernilai pasti.
+* **Soft Computing:** Mengizinkan derajat keanggotaan (*degree of membership*), probabilitas stokastik, toleransi kesalahan (*error tolerance*), pencarian heuristik, dan solusi aproksimatif. Relevan ketika sistem dunia nyata terlalu kompleks untuk dimodelkan secara analitis tertutup.
+* **Makna Filosofis 'Soft':** *"Soft bukan berarti lemah; 'soft' merujuk pada fleksibilitas sistem terhadap ketidakpastian dan ketidaktepatan."* Kualitas solusi ditentukan oleh konteks masalah dan kriteria evaluasi yang ditetapkan.
 
-### C. Enam Sumber Kesulitan Masalah Dunia Nyata (*Sources of Difficulty*)
-Prof. Fanani memetakan 6 alasan mendasar mengapa pendekatan komputasi konvensional (Hard Computing) gagal di dunia nyata:
+### E. Enam Sumber Kesulitan Masalah Dunia Nyata (*Sources of Difficulty*) (Slide 9)
+Prof. Fanani memetakan 6 alasan mendasar mengapa pendekatan eksak konvensional (Hard Computing) gagal di dunia nyata:
 1. **Uncertainty:** Informasi tidak lengkap (*incomplete*) atau memiliki ketidakpastian stokastik.
 2. **Vagueness:** Konsep bersifat linguistik subjektif atau batas kategori tidak tegas (contoh: "rendah", "sedang", "tinggi").
 3. **Noise:** Data mengandung gangguan transmisi atau kesalahan pengukuran sensor.
 4. **Complexity:** Hubungan antar-variabel terlampau rumit untuk dirumuskan secara analitis eksplisit.
-5. **Nonlinearity:** Perubahan pada masukan (*input*) tidak menghasilkan perubahan keluaran (*output*) yang proporsional.
+5. **Nonlinearity:** Perubahan pada variabel masukan (*input*) tidak menghasilkan perubahan keluaran (*output*) yang proporsional/linear.
 6. **Large Search Space:** Jumlah kandidat kombinasi solusi sangat masif (*combinatorial explosion*), membuat pencarian eksak menjadi mustahil secara waktu (*NP-hard*).
 
-### D. Aproksimasi sebagai Strategi Komputasi
+### F. Aproksimasi sebagai Strategi Komputasi (Slide 10)
 * Tidak semua masalah menuntut solusi eksak 100%.
 * Secara umum, tujuan optimasi dirumuskan sebagai:
   $$x^* = \arg\min f(x) \quad \text{atau} \quad x^* = \arg\max f(x)$$
 * Pada Soft Computing, pencarian $x^*$ dilakukan secara heuristik atau berbasis populasi (*population-based*).
 * **Pertanyaan Riset Kritis S3:** *"Seberapa dekat solusi aproksimasi terhadap titik optimum sejati, dan seberapa mahal biaya komputasi (*computational cost*) yang dibutuhkan?"*
 
-### E. Karakteristik, Keunggulan & Keterbatasan 4 Paradigma Inti
+### G. Karakteristik, Keunggulan & Keterbatasan 4 Paradigma Inti (Slide 11–14)
 
-| Paradigma Soft Computing | Kekuatan / Keunggulan | Keterbatasan / Kelemahan |
-| :--- | :--- | :--- |
-| **1. Fuzzy Computing**<br>($\mu(x) \in [0,1]$) | • Aturan interpretable & jelas.<br>• Representasi pengetahuan linguistik eksplisit. | • Desain fungsi keanggotaan dan rule base rentan subjektifitas pakar. |
-| **2. Neural Computing**<br>($y = \phi(\sum w_i x_i + b)$) | • Aproksimasi fungsi non-linier universal.<br>• Pembelajaran berbasis data (*data-driven*). | • Butuh dataset besar & waktu training;<br>• Model cenderung kotak hitam (*black box*). |
-| **3. Evolutionary Computing**<br>(GA: Populasi, Fitness, Seleksi, Mutasi) | • Bebas turunan matematis (*derivative-free*).<br>• Mampu menjelajahi ruang pencarian luas global. | • Evaluasi fitness mahal komputasinya;<br>• Risiko konvergensi prematur (*local optima*). |
-| **4. Swarm Intelligence**<br>(PSO, ACO, Bee Colony) | • Desentralisasi kolektif.<br>• Keseimbangan eksplorasi dan eksploitasi solusi. | • Sangat sensitif terhadap parameter kontrol (kecepatan, bobot inersia, feromon). |
+| Paradigma Soft Computing | Formulasi / Elemen Kunci | Kekuatan / Keunggulan | Keterbatasan / Kelemahan |
+| :--- | :--- | :--- | :--- |
+| **1. Fuzzy Computing** | $\mu(x) \in [0,1]$<br>Rule-based: *IF-THEN* | • Aturan interpretable & jelas.<br>• Representasi pengetahuan linguistik eksplisit. | • Desain fungsi keanggotaan dan rule base rentan subjektivitas pakar. |
+| **2. Neural Computing** | $y = \phi(\sum w_i x_i + b)$ | • Aproksimasi fungsi non-linier universal.<br>• Pembelajaran berbasis data (*data-driven*). | • Butuh dataset besar & waktu training;<br>• Model cenderung kotak hitam (*black box*). |
+| **3. Evolutionary Computing** | GA: 6 Elemen Kunci (*Representation, Population, Fitness, Selection, Variation, Replacement*) | • Bebas turunan matematis (*derivative-free*).<br>• Mampu menjelajahi ruang pencarian global luas. | • Evaluasi fitness mahal komputasinya;<br>• Risiko konvergensi prematur (*local optima*). |
+| **4. Swarm Intelligence** | PSO (*pbest & gbest*);<br>ACO (*pheromone & trail probability*) | • Desentralisasi kolektif.<br>• Keseimbangan eksplorasi dan eksploitasi solusi. | • Sangat sensitif terhadap parameter kontrol (kecepatan, bobot inersia, feromon). |
 
-### F. Sistem Cerdas Hibrida (*Hybrid Intelligent Systems*)
-Hibridisasi menggabungkan kekuatan metode yang saling melengkapi (*complementary*):
-* **Neuro-Fuzzy (ANFIS):** Menggabungkan kemampuan belajar adaptif dari ANN dengan keterpahaman (*interpretability*) aturan Fuzzy.
-* **Evolutionary-Neural:** Optimasi evolusioner (GA/PSO) untuk mencari arsitektur/bobot jaringan saraf + pembelajaran lokal neural.
-* **Evolutionary-Fuzzy:** Pencarian evolusi untuk mengoptimasi fungsi keanggotaan (*membership function*) atau basis aturan fuzzy.
-* **Prinsip Utama Hibridisasi Prof. Fanani:** *"Tujuan sistem hybrid bukan sekadar menambah-nambah algoritma, melainkan mengatasi keterbatasan spesifik yang telah teridentifikasi pada metode tunggal!"*
+### H. Peta Konseptual Paradigma & Sistem Cerdas Hibrida (Slide 15 & 18)
+* **Peta Konseptual Relasi (Slide 15):**
+  * Fuzzy Computing $\longrightarrow$ *Reasoning under vagueness*
+  * Neural Computing $\longrightarrow$ *Learning nonlinear mappings from data*
+  * Evolutionary Computation $\longrightarrow$ *Search and optimization through evolution-inspired mechanisms*
+  * Swarm Intelligence $\longrightarrow$ *Population-based optimization through collective behavior*
+  * Hybrid Intelligent Systems $\longrightarrow$ Menggabungkan kekuatan beberapa paradigma untuk mengatasi limitasi
+* **Bentuk-Bentuk Hibridisasi Cerdas (Slide 18):**
+  * **Neuro-Fuzzy (ANFIS):** Menggabungkan kapasitas belajar adaptif dari ANN dengan keterpahaman (*interpretability*) aturan Fuzzy.
+  * **Evolutionary-Neural:** Optimasi evolusioner (GA/PSO) untuk merancang arsitektur/bobot jaringan saraf + pembelajaran neural.
+  * **Evolutionary-Fuzzy:** Pencarian evolusi untuk mengoptimasi bentuk fungsi keanggotaan (*membership function*) atau basis aturan fuzzy.
+  * **Prinsip Utama Hibridisasi Prof. Fanani:** *"Tujuan sistem hybrid bukan sekadar menambah-nambah algoritma, melainkan mengatasi keterbatasan spesifik yang telah teridentifikasi pada metode tunggal!"*
 
-### G. Distingsi Kritis: Soft Computing vs Machine Learning & Deep Learning
+### I. Distingsi Kritis: Soft Computing vs Machine Learning & Deep Learning (Slide 16–17)
 * **Machine Learning:** Berfokus spesifik pada algoritma yang mempelajari pola atau fungsi dari data historis.
 * **Soft Computing:** Merupakan paradigma/filosofi pemecahan masalah (*problem-solving philosophy*) yang memayungi beberapa keluarga pendekatan.
 * **Irisan:** ANN berada pada perpotongan antara Soft Computing dan Machine Learning. Genetic Algorithm (GA) dapat digunakan untuk optimasi murni maupun ML. Fuzzy Logic dapat berjalan tanpa data pelatihan sama sekali (*expert rule base*).
-* **Deep Learning:** Merupakan pengembangan neural network dengan banyak lapisan tersembunyi (*deep layers*). Secara historis berakar dari Soft Computing, namun dalam ekosistem AI modern lebih tepat dipahami sebagai domain Machine Learning berbasis representasi bertingkat.
+* **Deep Learning:** Merupakan pengembangan neural network dengan banyak lapisan tersembunyi (*deep layers*) dan representasi bertingkat. Secara historis berakar dari Soft Computing, namun dalam ekosistem AI modern lebih tepat dipahami sebagai domain Machine Learning berbasis representasi bertingkat.
 
-### H. Kapan Soft Computing Layak Digunakan dalam Riset?
+### J. Kapan Soft Computing Layak Digunakan dalam Riset? (Slide 19)
 Prof. Fanani menegaskan bahwa **pemilihan metode harus didasarkan pada karakteristik masalah, bukan sekadar popularitas algoritma**. Soft Computing layak digunakan apabila:
 1. Pemodelan matematika eksak sulit, tidak praktis, atau terlalu mahal.
 2. Data bersifat *noisy, incomplete, vague*, atau heterogen.
@@ -135,7 +175,7 @@ Prof. Fanani menegaskan bahwa **pemilihan metode harus didasarkan pada karakteri
 4. Fungsi objektif bersifat non-konveks atau tidak dapat diturunkan (*non-differentiable*).
 5. Diperlukan *trade-off* multi-kriteria antara akurasi, kekokohan (*robustness*), keterpahaman (*interpretability*), dan biaya komputasi (*computational cost*).
 
-### I. Kerangka 7 Langkah: *"From Problem to Method"*
+### K. Kerangka 7 Langkah: *"From Problem to Method"* (Slide 21)
 Tujuh langkah terstruktur untuk merumuskan riset berbasis Soft Computing tingkat doktoral:
 1. **Identifikasi karakteristik masalah.**
 2. **Formulasikan objective, variables, constraints, dan data.**
@@ -145,16 +185,23 @@ Tujuh langkah terstruktur untuk merumuskan riset berbasis Soft Computing tingkat
 6. **Evaluasi secara kuantitatif dan kritis.**
 7. **Analisis limitation dan research contribution.**
 
-### J. Enam Pertanyaan Riset (*Research Questions*) Standar Doktoral Soft Computing
+### L. Enam Pertanyaan Riset (*Research Questions*) Standar Doktoral Soft Computing (Slide 20)
 Slide Prof. Fanani merumuskan 6 pertanyaan riset baku yang harus dijawab dalam naskah ilmiah S3:
 1. *Apakah metode baru menghasilkan solusi yang lebih baik daripada baseline?*
 2. *Apakah hibridisasi benar-benar memberikan perbaikan (*improvement*) yang signifikan?*
 3. *Bagaimana sensitivitas model terhadap variasi parameter?*
-4. *Bagaimana ketahanan (*robustness*) model terhadap noise, missing data, atau pergeseran distribusi data?*
+4. *Bagaimana ketahanan (*robustness*) model terhadap noise, missing data, atau pergeseran distribusi data (*drift*)?*
 5. *Bagaimana trade-off antara accuracy, interpretability, convergence speed, dan computational cost?*
 6. *Apakah hasil eksperimen reproducible pada dataset atau kondisi operasional lain?*
 
-### K. Strategi Roadmap Riset 3 Tahun: Baseline vs. Disertasi Akhir
+### M. Lima Poin Rangkuman Resmi (Summary Slide 22)
+1. Soft Computing menangani masalah yang sulit dimodelkan secara eksak melalui pendekatan aproksimatif, adaptif, dan toleran terhadap ketidakpastian.
+2. Fuzzy, Neural, Evolutionary, dan Swarm merupakan keluarga pendekatan utama.
+3. Soft Computing beririsan dengan Machine Learning dan Intelligent Systems, tetapi tidak identik dengannya.
+4. Hybrid Intelligent Systems menggabungkan metode untuk mengatasi keterbatasan pendekatan tunggal.
+5. **Pesan Doktoral Utama:** *"Pada level S3, fokus utama bukan hanya menjalankan algoritma, tetapi menganalisis asumsi, trade-off, evaluasi, dan peluang kontribusi ilmiah."*
+
+### N. Strategi Roadmap Riset 3 Tahun: Baseline vs. Disertasi Akhir
 Prof. Fanani menegaskan bahwa riset doktoral (S3) **wajib menghasilkan perbaikan metode (*method improvement*)**, bukan sekadar menerapkan metode yang sudah ada ke data/objek baru (yang merupakan porsi riset S1).
 
 * **Tahun 1 (Membangun Baseline):**  
@@ -165,9 +212,6 @@ Prof. Fanani menegaskan bahwa riset doktoral (S3) **wajib menghasilkan perbaikan
   2. **Evolutionary Algorithms (Genetic Algorithm):** Untuk pencarian arsitektur optimal (*Neural Architecture Search*) dan optimasi multi-objektif.
   3. **Ensemble Learning:** Menggabungkan multi-model (Stacking, Boosting) untuk meningkatkan generalisasi dan mereduksi bias/variansi.
   4. **Hybrid Methods (Neuro-Fuzzy / ANFIS):** Menggabungkan logika fuzzy dengan jaringan saraf tiruan untuk penalaran ketidakpastian.
-
-> 🎓 **Pesan Doktoral Prof. Fanani (Slide Penutup):**  
-> *"Pada level S3, fokus utama bukan hanya menjalankan algoritma, tetapi menganalisis asumsi, trade-off, evaluasi, dan peluang kontribusi ilmiah."*
 
 ---
 
