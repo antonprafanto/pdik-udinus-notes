@@ -18,3 +18,15 @@ Fokus mata kuliah ini adalah eksplorasi metode kecerdasan komputasi modern (Neur
     * Fondasi Teoretis Slide 01: Formula $SC = FS + NN + EA + SI$, 6 sumber kerumitan dunia nyata, 4 pilar paradigma, hibridisasi cerdas, 7 langkah *from problem to method*, dan 6 research questions doktoral.
     * Peran Soft Computing dalam menghadirkan *method improvement* (Optimasi PSO/ACO, Algoritma Genetika, Ensemble Learning, dan Hybrid Neuro-Fuzzy).
     * Strategi membangun modal riset sebelum penetapan promotor di Semester 2.
+
+---
+
+## 📂 Berkas & Dokumen Resmi Perkuliahan (PDF)
+
+Repositori ini menyimpan 3 berkas dokumen resmi perkuliahan Komputasi Lunak Lanjut yang dapat diakses langsung:
+1. 📕 **[1. Pengantar_Soft_Computing_Kontrak.pdf](./1.%20Pengantar_Soft_Computing_Kontrak.pdf)**  
+   *Deskripsi:* Silabus, kontrak perkuliahan doktoral berbasis luaran (100% *project/output-based*), serta pengantar awal paradigma Soft Computing oleh Prof. Dr. Ahmad Zainul Fanani, M.Kom. (2026).
+2. 📘 **[2. Soft Computing - Pertemuan 01 - Introduction to Soft_Computing.pdf](./2.%20Soft%20Computing%20-%20Pertemuan%2001%20-%20Introduction%20to%20Soft_Computing.pdf)**  
+   *Deskripsi:* Slide materi presentasi lengkap 22 slide meliputi ekosistem AI, pipeline sistem cerdas, 6 sumber kerumitan dunia nyata, 4 pilar paradigma (FS, NN, EA, SI), sistem hibrida cerdas, kriteria penggunaan, kerangka 7 langkah *"From Problem to Method"*, dan 6 pertanyaan riset doktoral.
+3. 📙 **[Tugas 1 SoftComputing 2026.pdf](./Tugas%201%20SoftComputing%202026.pdf)**  
+   *Deskripsi:* Lembar silabus panduan resmi Tugas 1 (Usulan topik disertasi, review 7 paper Scopus, batas akhir upload Kulino: **21 Oktober 2026**, jadwal presentasi pertemuan 4–5, dan kontinuitas ke tugas akhir).

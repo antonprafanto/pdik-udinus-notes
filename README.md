@@ -34,6 +34,7 @@ Berikut pemetaan mata kuliah Semester Gasal 2026/2027:
 ### 🔹 [04. Advanced Soft Computing (Komputasi Lunak Lanjut)](./04-advanced-soft-computing/)
 * 📄 **[Pertemuan 1: Pengantar Soft Computing, Asesmen Doktoral, & Roadmap 3 Tugas Berkelanjutan](./04-advanced-soft-computing/pertemuan-01-pengantar-soft-computing-dan-kontrak-tugas.md)**
   * *Intisari:* Penilaian 100% *Project-Based* (bebas UTS/UAS tertulis), roadmap 3 tugas berjenjang menuju draf paper Scopus (Tugas 1: Usulan & Review 7 paper, Tugas 2: Proposed Method, Tugas 3: Paper IMRaD siap submit), dan peran Soft Computing melahirkan kebaruan (*improvement*).
+  * 📁 *Berkas PDF Resmi Tersedia:* Menyimpan berkas lengkap [Kontrak Kuliah](./04-advanced-soft-computing/1.%20Pengantar_Soft_Computing_Kontrak.pdf), [Slide Materi Teori 22 Halaman](./04-advanced-soft-computing/2.%20Soft%20Computing%20-%20Pertemuan%2001%20-%20Introduction%20to%20Soft_Computing.pdf), dan [Panduan Tugas 1](./04-advanced-soft-computing/Tugas%201%20SoftComputing%202026.pdf).
 
 ### 🔹 [05. Advanced Computer Vision (Visi Komputer Lanjut)](./05-advanced-computer-vision/)
 * 📄 **[Pertemuan 1: Fondasi Visi Komputer, Kerangka Kerja Klasik 3R, & Ketangguhan Lingkungan Riil](./05-advanced-computer-vision/pertemuan-01-fondasi-visi-komputer-dan-framework-3r.md)**

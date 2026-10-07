@@ -4,6 +4,11 @@
 **Program:** Program Doktor Ilmu Komputer (PDIK) - Universitas Dian Nuswantoro (UDINUS)  
 **Waktu:** Perkuliahan Perdana Semester Gasal 2026/2027 (~68 menit)  
 
+> 📂 **Berkas Resmi Perkuliahan Tersedia di Repositori:**  
+> 1. [1. Pengantar_Soft_Computing_Kontrak.pdf](./1.%20Pengantar_Soft_Computing_Kontrak.pdf) (Silabus & Kontrak Kuliah)  
+> 2. [2. Soft Computing - Pertemuan 01 - Introduction to Soft_Computing.pdf](./2.%20Soft%20Computing%20-%20Pertemuan%2001%20-%20Introduction%20to%20Soft_Computing.pdf) (Slide Presentasi Teori 22 Halaman)  
+> 3. [Tugas 1 SoftComputing 2026.pdf](./Tugas%201%20SoftComputing%202026.pdf) (Panduan Resmi Tugas 1)
+
 ---
 
 ## 🧭 Pendahuluan & Filosofi Asesmen Doktoral
