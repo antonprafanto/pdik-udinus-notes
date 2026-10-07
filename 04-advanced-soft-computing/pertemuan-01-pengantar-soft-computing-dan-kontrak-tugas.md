@@ -36,7 +36,7 @@ flowchart TD
 
     T1 -->|"1. Gap Riset dan Landasan Teori"| T2
     T2 -->|"2. Desain Algoritma dan Metodologi"| T3
-    T3 ==>|"3. Konversi Paper Konferensi"| PUB1
+    T3 -->|"3. Konversi Paper Konferensi"| PUB1
     PUB1 -->|"4. Pengembangan Naskah Jurnal"| PUB2
 ```
 
