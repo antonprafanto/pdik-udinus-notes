@@ -23,24 +23,31 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
   2. *Publikasi 2 (Kelulusan Disertasi):* Jurnal Internasional Bereputasi Scopus (Q1/Q2) yang memuat perbaikan metode (*method improvement*).
 * **Target Output:** Di akhir semester, mahasiswa menghasilkan **draf naskah ilmiah format IMRaD siap *submit* ke International Conference terindeks Scopus (IEEE/ACM/Scopus)**.
 
-```
-                    ┌─────────────────────────────────────────────────────────────┐
-                    │     ROADMAP TUGAS BERKELANJUTAN KOMPUTASI LUNAK             │
-                    └──────────────────────────────┬──────────────────────────────┘
-                                                   │
-             ┌─────────────────────────────────────┼─────────────────────────────────────┐
-             ▼                                     ▼                                     ▼
-    ┌──────────────────┐                 ┌──────────────────┐                  ┌──────────────────┐
-    │   TUGAS 1        │                 │   TUGAS 2        │                  │   TUGAS 3        │
-    │ (Minggu ke-4)    │                 │ (Minggu ke-8/9)  │                  │ (Minggu ke-14)   │
-    ├──────────────────┤                 ├──────────────────┤                  ├──────────────────┤
-    │• Topik Disertasi │                 │• Proposed Method │                  │• Baseline Exper. │
-    │• Pendahuluan/RQ  │───────────────► │• Diagram Alir    │────────────────► │• Draf Paper IMRaD│
-    │• Review Min. 7   │                 │  Bab 3 Riset     │                  │• Siap Submit     │
-    │  Paper Scopus    │                 │• Peran Soft Comp.│                  │  (Scopus Conf.)  │
-    └──────────────────┘                 └──────────────────┘                  └──────────────────┘
-             │                                                                     ▲
-             └────────────── BERKONTRIBUSI LANGSUNG KE DISERTASI S3 ───────────────┘
+```mermaid
+flowchart TD
+    subgraph ROADMAP["🚀 ROADMAP TUGAS BERKELANJUTAN KOMPUTASI LUNAK"]
+        direction LR
+        T1["<b>TUGAS 1 (Pertemuan 1–4)</b><br/><i>Batas Upload: 21 Okt 2026 (Kulino)<br/>Presentasi: Pertemuan 4–5</i><br/>───────────────<br/>• Usulan Topik Disertasi<br/>• Pendahuluan & Research Questions (RQ)<br/>• Review Kritis ±7 Paper Scopus<br/>• Penetapan 1 Paper Acuan (Baseline)"]
+
+        T2["<b>TUGAS 2 (Minggu 8–9)</b><br/><i>Pasca Materi Teori Lanjut</i><br/>───────────────<br/>• Metodologi Riset (Bab 3 Disertasi)<br/>• Proposed Method & Desain Algoritma<br/>• Diagram Alir Pemodelan<br/>• Integrasi Pilar Soft Computing"]
+
+        T3["<b>TUGAS 3 (Minggu 14 / Akhir)</b><br/><i>Tugas Akhir Matakuliah</i><br/>───────────────<br/>• Eksperimen Baseline vs Proposed<br/>• Analisis & Pembahasan Hasil Komparasi<br/>• Naskah Lengkap Format IMRaD (Inggris)<br/>• Draf Siap Submit Scopus Conf."]
+
+        T1 -->|"Gap Riset & Landasan Teori"| T2
+        T2 -->|"Formulasi Metode Riset"| T3
+    end
+
+    subgraph LUARAN["🎓 TARGET LUARAN PROGRAM DOKTOR (PDIK UDINUS)"]
+        direction TB
+        PUB1["<b>Publikasi 1: International Conference Scopus (IEEE/ACM)</b><br/><i>Syarat Wajib Maju Ujian Proposal Disertasi</i><br/>(Target Langsung dari Konversi Tugas 3)"]
+        PUB2["<b>Publikasi 2: Jurnal Bereputasi Scopus Q1/Q2</b><br/><i>Syarat Kelulusan Sidang Terbuka Doktoral</i><br/>(Method Improvement & Kontribusi Utuh Disertasi)"]
+
+        PUB1 --> PUB2
+    end
+
+    T3 ==>|"Konversi Langsung"| PUB1
+    T1 -.->|"Kontribusi Bab 1 & Bab 2 Disertasi"| LUARAN
+    T2 -.->|"Kontribusi Bab 3 Metodologi Disertasi"| LUARAN
 ```
 
 ---
