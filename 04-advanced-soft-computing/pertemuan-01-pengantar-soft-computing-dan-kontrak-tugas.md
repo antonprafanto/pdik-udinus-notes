@@ -25,22 +25,22 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
 
 ```mermaid
 flowchart TD
-    subgraph TAHAP["📚 ROADMAP 3 TUGAS BERKELANJUTAN KOMPUTASI LUNAK"]
-        T1["<b>TUGAS 1 (Pertemuan 1–4)</b><br/>• Usulan Topik Disertasi & Rumusan Masalah (RQ)<br/>• Kajian Kritis ±7 Paper Scopus & 1 Paper Acuan Baseline<br/><i>Deadline Upload: 21 Okt 2026 (Kulino) | Presentasi: P4–P5</i>"]
+    subgraph TAHAPAN["ROADMAP 3 TUGAS BERKELANJUTAN KOMPUTASI LUNAK"]
+        T1["TUGAS 1 (Pertemuan 1-4)<br/>Usulan Topik Disertasi dan Rumusan Masalah (RQ)<br/>Kajian Kritis 7 Paper Scopus dan 1 Paper Acuan Baseline<br/>Deadline: 21 Okt 2026 di Kulino -- Presentasi: P4-P5"]
 
-        T2["<b>TUGAS 2 (Minggu 8–9)</b><br/>• Metodologi Riset (Bab 3 Disertasi) & Proposed Method<br/>• Diagram Alir Pemodelan & Integrasi Soft Computing<br/><i>Pasca Pembahasan Materi Lanjut</i>"]
+        T2["TUGAS 2 (Minggu 8-9)<br/>Metodologi Riset (Bab 3) dan Proposed Method<br/>Diagram Alir Pemodelan dan Integrasi Soft Computing<br/>Jadwal: Pasca Materi Lanjut"]
 
-        T3["<b>TUGAS 3 (Minggu 14 / UAS)</b><br/>• Eksperimen Komparasi: Proposed Method vs Paper Acuan<br/>• Naskah Lengkap Format IMRaD Siap Submit Scopus Conf.<br/><i>Tugas Akhir Mata Kuliah</i>"]
+        T3["TUGAS 3 (Minggu 14 / UAS)<br/>Eksperimen Komparasi: Proposed Method vs Paper Acuan<br/>Naskah Lengkap Format IMRaD Siap Submit Scopus Conf<br/>Luaran Akhir Mata Kuliah"]
 
-        T1 -->|"1. Gap Riset & Landasan Teori (Bab 1–2 Disertasi)"| T2
-        T2 -->|"2. Desain Algoritma & Metodologi (Bab 3 Disertasi)"| T3
+        T1 -->|"1. Gap Riset dan Landasan Teori"| T2
+        T2 -->|"2. Desain Algoritma dan Metodologi"| T3
     end
 
-    subgraph LUARAN["🎓 TARGET LUARAN PROGRAM DOKTOR (S3 PDIK UDINUS)"]
-        PUB1["<b>Publikasi 1: International Conference Scopus (IEEE / ACM)</b><br/><i>Syarat Wajib Maju Ujian Proposal Disertasi S3</i>"]
-        PUB2["<b>Publikasi 2: Jurnal Bereputasi Internasional Scopus (Q1 / Q2)</b><br/><i>Syarat Kelulusan Sidang Terbuka Doktoral</i>"]
+    subgraph LUARAN["TARGET LUARAN PROGRAM DOKTOR (S3 PDIK UDINUS)"]
+        PUB1["Publikasi 1: International Conference Scopus (IEEE/ACM)<br/>Syarat Wajib Maju Ujian Proposal Disertasi S3"]
+        PUB2["Publikasi 2: Jurnal Bereputasi Internasional Scopus (Q1/Q2)<br/>Syarat Kelulusan Sidang Terbuka Doktoral"]
 
-        PUB1 -->|"Pengembangan Menjadi Naskah Jurnal"| PUB2
+        PUB1 -->|"Pengembangan Naskah Jurnal"| PUB2
     end
 
     T3 ==>|"Konversi Langsung Menjadi Paper Konferensi"| PUB1
