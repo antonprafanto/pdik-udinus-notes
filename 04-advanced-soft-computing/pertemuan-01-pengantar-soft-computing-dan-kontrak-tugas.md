@@ -44,17 +44,18 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
 
 Penugasan perkuliahan dirancang terstruktur dalam 3 tahapan yang saling menyambung:
 
-### 🔹 Tugas 1: Usulan Topik & Review 7 Paper Scopus (Deadline: ~Minggu ke-4)
-1. **Penyusunan Usulan:** Menuliskan topik/judul penelitian yang sedang tren dan relevan dengan kepakaran.
-2. **Komponen Pendahuluan:**
-   * Judul & Topik Penelitian
-   * Pendahuluan / Latar Belakang Masalah empiris
-   * Rumusan Masalah: *Research Questions* (RQ1, RQ2, RQ3)
-   * Tujuan Penelitian: *Research Objectives* (RO1, RO2, RO3)
-3. **Review Literatur:** Mengulas **minimal 7 paper Scopus (5 tahun terakhir)** yang paling relevan dengan topik usulan ($\sim 0,5$ halaman per paper, total $\sim 3,5$ halaman: masalah, metode, capaian hasil, keunggulan, serta kelemahan/gap).
+### 🔹 Tugas 1: Usulan Topik & Review 7 Paper Scopus (Deadline Upload: 21 Oktober 2026 di Kulino | Presentasi: Pertemuan 4–5)
+1. **Penyusunan Usulan:** Menuliskan Usulan Penelitian dengan membuat Judul/Topik yang disesuaikan dengan bidang kompetensi yang dikuasai atau sedang tren, dan direncanakan untuk Topik Disertasi.
+2. **Komponen Pendahuluan & Isi:**
+   * Judul & Topik Penelitian (dapat dikonsultasikan selama perkuliahan).
+   * Pendahuluan / Latar Belakang Masalah empiris.
+   * Rumusan Masalah (*Research Questions*).
+3. **Review Literatur:** Mengulas **$\pm 7$ paper Scopus (5 tahun terakhir)** untuk mencari *state of the art* ($\sim 0,5$ halaman per paper, total $\sim 3,5$ halaman: masalah, metode, capaian hasil, keunggulan, serta kelemahan/gap).
 4. **Penetapan "Paper Acuan" (Baseline Benchmark Paper):**  
    Dari 7 paper yang direview, mahasiswa **wajib menunjuk 1 paper utama sebagai Paper Acuan (Riset Acuan)**. Paper acuan inilah yang menjadi lawan tanding (*benchmark*) di mana kelemahannya akan diperbaiki dan metrik performanya akan dikalahkan oleh metode usulan kita.
-5. **Presentasi:** Dipresentasikan ringkas ($\sim 10$ menit per mahasiswa) untuk mendapatkan masukan dosen dan rekan sekelas.
+5. **Jadwal Presentasi & Kontinuitas Tugas Akhir:**  
+   * Disiapkan untuk dipresentasikan pada **Pertemuan 4–5**.
+   * Tugas 1 ini merupakan fondasi awal yang akan diteruskan menjadi tugas lanjutan (**Tugas Akhir Matakuliah Soft Computing**) berupa Paper IMRaD atau Usulan Proposal Disertasi yang dikumpulkan pada pertemuan akhir matakuliah ini.
 
 ### 🔹 Tugas 2: Proposed Method & Metodologi / Bab 3 (Deadline: ~Minggu ke-8/9)
 1. Menguraikan metode yang diusulkan (*proposed method*) atau kombinasi algoritma baru.
@@ -69,9 +70,92 @@ Penugasan perkuliahan dirancang terstruktur dalam 3 tahapan yang saling menyambu
 
 ---
 
-## 2. 🧠 Peran Soft Computing dalam Melahirkan Novelty S3
+## 2. 🧠 Fondasi Teoretis, Taksonomi, & Peran Strategis Soft Computing (Slide Pertemuan 01)
 
-Prof. Fanani menekankan bahwa riset doktoral wajib menghadirkan **Improvement / Perbaikan Metode**, bukan sekadar menerapkan metode lama ke objek/data baru (level sarjana).
+Sesuai materi slide presentasi resmi Prof. Dr. Ahmad Zainul Fanani (*Introduction to Soft Computing*), bidang ini diposisikan sebagai filosofi komputasi tingkat tinggi untuk memecahkan persoalan dunia nyata yang tidak dapat diselesaikan dengan matematika analitis eksak:
+
+### A. Definisi & Formula Fundamental Soft Computing
+* **Definisi Formal:** Soft Computing (SC) adalah paradigma komputasi yang menekankan **toleransi terhadap ketidakpastian (*uncertainty*)**, **ketidaktepatan (*imprecision*)**, dan **aproksimasi (*approximation*)**.
+* **Tujuan Utama:** Bukan semata-mata mencari solusi eksak mutlak, melainkan menghasilkan solusi yang **dapat diterima (*acceptable*)**, **adaptif (*adaptive*)**, **kokoh (*robust*)**, atau **mendekati optimal (*near-optimal*)**.
+* **Formula Inti Soft Computing:**
+  $$SC = FS + NN + EA + SI$$
+  * **FS (Fuzzy Systems / Fuzzy Logic):** Penalaran di bawah ketidakjelasan (*reasoning under vagueness*).
+  * **NN (Neural Networks / Neural Computing):** Pembelajaran pemetaan non-linear dari data (*learning nonlinear mappings*).
+  * **EA (Evolutionary Algorithms / Evolutionary Computation):** Pencarian dan optimasi terinspirasi mekanisme evolusi biologis (*evolution-inspired search*).
+  * **SI (Swarm Intelligence):** Optimasi berbasis populasi terinspirasi perilaku kolektif kawanan biologis (*collective behavior*).
+
+### B. Mengapa Disebut 'Soft'? (Hard Computing vs Soft Computing)
+* **Hard Computing:** Berpijak pada aturan deterministik (*deterministic rules*), representasi eksak, komputasi presisi, dan batasan ketat (*strict constraints*). Relevan jika model matematika, data, dan aturan relatif pasti.
+* **Soft Computing:** Mengizinkan derajat keanggotaan (*degree of membership*), probabilitas, toleransi kesalahan (*error tolerance*), pencarian heuristik, dan solusi aproksimatif. Relevan ketika sistem dunia nyata terlalu kompleks untuk dimodelkan secara eksak.
+* **Makna Filosofis 'Soft':** *"Soft bukan berarti lemah; 'soft' merujuk pada fleksibilitas sistem terhadap ketidakpastian dan ketidaktepatan."*
+
+### C. Enam Sumber Kesulitan Masalah Dunia Nyata (*Sources of Difficulty*)
+Prof. Fanani memetakan 6 alasan mendasar mengapa pendekatan komputasi konvensional (Hard Computing) gagal di dunia nyata:
+1. **Uncertainty:** Informasi tidak lengkap (*incomplete*) atau memiliki ketidakpastian stokastik.
+2. **Vagueness:** Konsep bersifat linguistik subjektif atau batas kategori tidak tegas (contoh: "rendah", "sedang", "tinggi").
+3. **Noise:** Data mengandung gangguan transmisi atau kesalahan pengukuran sensor.
+4. **Complexity:** Hubungan antar-variabel terlampau rumit untuk dirumuskan secara analitis eksplisit.
+5. **Nonlinearity:** Perubahan pada masukan (*input*) tidak menghasilkan perubahan keluaran (*output*) yang proporsional.
+6. **Large Search Space:** Jumlah kandidat kombinasi solusi sangat masif (*combinatorial explosion*), membuat pencarian eksak menjadi mustahil secara waktu (*NP-hard*).
+
+### D. Aproksimasi sebagai Strategi Komputasi
+* Tidak semua masalah menuntut solusi eksak 100%.
+* Secara umum, tujuan optimasi dirumuskan sebagai:
+  $$x^* = \arg\min f(x) \quad \text{atau} \quad x^* = \arg\max f(x)$$
+* Pada Soft Computing, pencarian $x^*$ dilakukan secara heuristik atau berbasis populasi (*population-based*).
+* **Pertanyaan Riset Kritis S3:** *"Seberapa dekat solusi aproksimasi terhadap titik optimum sejati, dan seberapa mahal biaya komputasi (*computational cost*) yang dibutuhkan?"*
+
+### E. Karakteristik, Keunggulan & Keterbatasan 4 Paradigma Inti
+
+| Paradigma Soft Computing | Kekuatan / Keunggulan | Keterbatasan / Kelemahan |
+| :--- | :--- | :--- |
+| **1. Fuzzy Computing**<br>($\mu(x) \in [0,1]$) | • Aturan interpretable & jelas.<br>• Representasi pengetahuan linguistik eksplisit. | • Desain fungsi keanggotaan dan rule base rentan subjektifitas pakar. |
+| **2. Neural Computing**<br>($y = \phi(\sum w_i x_i + b)$) | • Aproksimasi fungsi non-linier universal.<br>• Pembelajaran berbasis data (*data-driven*). | • Butuh dataset besar & waktu training;<br>• Model cenderung kotak hitam (*black box*). |
+| **3. Evolutionary Computing**<br>(GA: Populasi, Fitness, Seleksi, Mutasi) | • Bebas turunan matematis (*derivative-free*).<br>• Mampu menjelajahi ruang pencarian luas global. | • Evaluasi fitness mahal komputasinya;<br>• Risiko konvergensi prematur (*local optima*). |
+| **4. Swarm Intelligence**<br>(PSO, ACO, Bee Colony) | • Desentralisasi kolektif.<br>• Keseimbangan eksplorasi dan eksploitasi solusi. | • Sangat sensitif terhadap parameter kontrol (kecepatan, bobot inersia, feromon). |
+
+### F. Sistem Cerdas Hibrida (*Hybrid Intelligent Systems*)
+Hibridisasi menggabungkan kekuatan metode yang saling melengkapi (*complementary*):
+* **Neuro-Fuzzy (ANFIS):** Menggabungkan kemampuan belajar adaptif dari ANN dengan keterpahaman (*interpretability*) aturan Fuzzy.
+* **Evolutionary-Neural:** Optimasi evolusioner (GA/PSO) untuk mencari arsitektur/bobot jaringan saraf + pembelajaran lokal neural.
+* **Evolutionary-Fuzzy:** Pencarian evolusi untuk mengoptimasi fungsi keanggotaan (*membership function*) atau basis aturan fuzzy.
+* **Prinsip Utama Hibridisasi Prof. Fanani:** *"Tujuan sistem hybrid bukan sekadar menambah-nambah algoritma, melainkan mengatasi keterbatasan spesifik yang telah teridentifikasi pada metode tunggal!"*
+
+### G. Distingsi Kritis: Soft Computing vs Machine Learning & Deep Learning
+* **Machine Learning:** Berfokus spesifik pada algoritma yang mempelajari pola atau fungsi dari data historis.
+* **Soft Computing:** Merupakan paradigma/filosofi pemecahan masalah (*problem-solving philosophy*) yang memayungi beberapa keluarga pendekatan.
+* **Irisan:** ANN berada pada perpotongan antara Soft Computing dan Machine Learning. Genetic Algorithm (GA) dapat digunakan untuk optimasi murni maupun ML. Fuzzy Logic dapat berjalan tanpa data pelatihan sama sekali (*expert rule base*).
+* **Deep Learning:** Merupakan pengembangan neural network dengan banyak lapisan tersembunyi (*deep layers*). Secara historis berakar dari Soft Computing, namun dalam ekosistem AI modern lebih tepat dipahami sebagai domain Machine Learning berbasis representasi bertingkat.
+
+### H. Kapan Soft Computing Layak Digunakan dalam Riset?
+Prof. Fanani menegaskan bahwa **pemilihan metode harus didasarkan pada karakteristik masalah, bukan sekadar popularitas algoritma**. Soft Computing layak digunakan apabila:
+1. Pemodelan matematika eksak sulit, tidak praktis, atau terlalu mahal.
+2. Data bersifat *noisy, incomplete, vague*, atau heterogen.
+3. Ruang pencarian solusi (*search space*) berskala sangat besar.
+4. Fungsi objektif bersifat non-konveks atau tidak dapat diturunkan (*non-differentiable*).
+5. Diperlukan *trade-off* multi-kriteria antara akurasi, kekokohan (*robustness*), keterpahaman (*interpretability*), dan biaya komputasi (*computational cost*).
+
+### I. Kerangka 7 Langkah: *"From Problem to Method"*
+Tujuh langkah terstruktur untuk merumuskan riset berbasis Soft Computing tingkat doktoral:
+1. **Identifikasi karakteristik masalah.**
+2. **Formulasikan objective, variables, constraints, dan data.**
+3. **Tentukan baseline dan evaluation metrics.**
+4. **Pilih paradigma Soft Computing yang sesuai.**
+5. **Rancang eksperimen dan parameter.**
+6. **Evaluasi secara kuantitatif dan kritis.**
+7. **Analisis limitation dan research contribution.**
+
+### J. Enam Pertanyaan Riset (*Research Questions*) Standar Doktoral Soft Computing
+Slide Prof. Fanani merumuskan 6 pertanyaan riset baku yang harus dijawab dalam naskah ilmiah S3:
+1. *Apakah metode baru menghasilkan solusi yang lebih baik daripada baseline?*
+2. *Apakah hibridisasi benar-benar memberikan perbaikan (*improvement*) yang signifikan?*
+3. *Bagaimana sensitivitas model terhadap variasi parameter?*
+4. *Bagaimana ketahanan (*robustness*) model terhadap noise, missing data, atau pergeseran distribusi data?*
+5. *Bagaimana trade-off antara accuracy, interpretability, convergence speed, dan computational cost?*
+6. *Apakah hasil eksperimen reproducible pada dataset atau kondisi operasional lain?*
+
+### K. Strategi Roadmap Riset 3 Tahun: Baseline vs. Disertasi Akhir
+Prof. Fanani menegaskan bahwa riset doktoral (S3) **wajib menghasilkan perbaikan metode (*method improvement*)**, bukan sekadar menerapkan metode yang sudah ada ke data/objek baru (yang merupakan porsi riset S1).
 
 * **Tahun 1 (Membangun Baseline):**  
   Ujikan metode *state-of-the-art* (Deep Learning, CNN, LSTM, Transformer) pada domain masalah yang belum pernah dicoba orang lain. Jika hasil akurasi baseline masih lebih rendah dari metode pembanding (misal: akurasi kita 94% sedangkan pembanding 96%), **itu wajar dan sah**. Kelemahan tersebut diulas secara jujur dalam sesi *Discussion* paper konferensi.
@@ -81,6 +165,9 @@ Prof. Fanani menekankan bahwa riset doktoral wajib menghadirkan **Improvement / 
   2. **Evolutionary Algorithms (Genetic Algorithm):** Untuk pencarian arsitektur optimal (*Neural Architecture Search*) dan optimasi multi-objektif.
   3. **Ensemble Learning:** Menggabungkan multi-model (Stacking, Boosting) untuk meningkatkan generalisasi dan mereduksi bias/variansi.
   4. **Hybrid Methods (Neuro-Fuzzy / ANFIS):** Menggabungkan logika fuzzy dengan jaringan saraf tiruan untuk penalaran ketidakpastian.
+
+> 🎓 **Pesan Doktoral Prof. Fanani (Slide Penutup):**  
+> *"Pada level S3, fokus utama bukan hanya menjalankan algoritma, tetapi menganalisis asumsi, trade-off, evaluasi, dan peluang kontribusi ilmiah."*
 
 ---
 
