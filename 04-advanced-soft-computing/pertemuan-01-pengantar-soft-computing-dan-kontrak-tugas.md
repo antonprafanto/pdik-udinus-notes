@@ -25,25 +25,19 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
 
 ```mermaid
 flowchart TD
-    subgraph TAHAPAN["ROADMAP 3 TUGAS BERKELANJUTAN KOMPUTASI LUNAK"]
-        T1["TUGAS 1 (Pertemuan 1-4)<br/>Usulan Topik Disertasi dan Rumusan Masalah (RQ)<br/>Kajian Kritis 7 Paper Scopus dan 1 Paper Acuan Baseline<br/>Deadline: 21 Okt 2026 di Kulino -- Presentasi: P4-P5"]
+    T1["TUGAS 1 (Pertemuan 1-4)<br/>- Usulan Topik Disertasi dan Rumusan Masalah (RQ)<br/>- Kajian Kritis 7 Paper Scopus dan 1 Paper Acuan Baseline<br/>Deadline: 21 Okt 2026 di Kulino -- Presentasi: P4-P5"]
+    
+    T2["TUGAS 2 (Minggu 8-9)<br/>- Metodologi Riset (Bab 3 Disertasi) dan Proposed Method<br/>- Diagram Alir Pemodelan dan Integrasi Soft Computing<br/>Jadwal: Pasca Pembahasan Materi Lanjut"]
+    
+    T3["TUGAS 3 (Minggu 14 / UAS)<br/>- Eksperimen Komparasi: Proposed Method vs Paper Acuan<br/>- Naskah Lengkap Format IMRaD Siap Submit Scopus Conf<br/>Luaran Akhir Mata Kuliah"]
+    
+    PUB1["PUBLIKASI 1: International Conference Scopus (IEEE/ACM)<br/>Syarat Wajib Maju Ujian Proposal Disertasi S3"]
+    PUB2["PUBLIKASI 2: Jurnal Bereputasi Internasional Scopus (Q1/Q2)<br/>Syarat Kelulusan Sidang Terbuka Doktoral"]
 
-        T2["TUGAS 2 (Minggu 8-9)<br/>Metodologi Riset (Bab 3) dan Proposed Method<br/>Diagram Alir Pemodelan dan Integrasi Soft Computing<br/>Jadwal: Pasca Materi Lanjut"]
-
-        T3["TUGAS 3 (Minggu 14 / UAS)<br/>Eksperimen Komparasi: Proposed Method vs Paper Acuan<br/>Naskah Lengkap Format IMRaD Siap Submit Scopus Conf<br/>Luaran Akhir Mata Kuliah"]
-
-        T1 -->|"1. Gap Riset dan Landasan Teori"| T2
-        T2 -->|"2. Desain Algoritma dan Metodologi"| T3
-    end
-
-    subgraph LUARAN["TARGET LUARAN PROGRAM DOKTOR (S3 PDIK UDINUS)"]
-        PUB1["Publikasi 1: International Conference Scopus (IEEE/ACM)<br/>Syarat Wajib Maju Ujian Proposal Disertasi S3"]
-        PUB2["Publikasi 2: Jurnal Bereputasi Internasional Scopus (Q1/Q2)<br/>Syarat Kelulusan Sidang Terbuka Doktoral"]
-
-        PUB1 -->|"Pengembangan Naskah Jurnal"| PUB2
-    end
-
-    T3 ==>|"Konversi Langsung Menjadi Paper Konferensi"| PUB1
+    T1 -->|"1. Gap Riset dan Landasan Teori"| T2
+    T2 -->|"2. Desain Algoritma dan Metodologi"| T3
+    T3 ==>|"3. Konversi Paper Konferensi"| PUB1
+    PUB1 -->|"4. Pengembangan Naskah Jurnal"| PUB2
 ```
 
 ---
