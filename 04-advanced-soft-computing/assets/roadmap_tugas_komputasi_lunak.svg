@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="100%" height="100%" style="background:#0b0f19; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Arrow Markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2dd4bf"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#a855f7"/>
+    </marker>
+
+    <!-- Gradients -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title & Subtitle -->
+  <text x="500" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="url(#header-grad)" letter-spacing="0.5">ROADMAP TUGAS BERKELANJUTAN KOMPUTASI LUNAK</text>
+  <text x="500" y="58" text-anchor="middle" font-size="13" font-weight="400" fill="#94a3b8">Program Doktor Ilmu Komputer (PDIK) UDINUS — Dosen Pengampu: Prof. Dr. A. Zainul Fanani, M.Kom.</text>
+
+  <!-- ================= TUGAS 1 ================= -->
+  <g transform="translate(40, 80)">
+    <rect width="920" height="98" rx="10" fill="url(#card-bg)" stroke="#0284c7" stroke-width="1.8"/>
+    
+    <!-- Badges -->
+    <rect x="20" y="14" width="220" height="26" rx="6" fill="#0284c7"/>
+    <text x="130" y="31" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">TUGAS 1 (Pertemuan 1–4)</text>
+
+    <rect x="255" y="14" width="380" height="26" rx="6" fill="#082f49" stroke="#0369a1" stroke-width="1"/>
+    <text x="445" y="31" text-anchor="middle" font-size="11.5" font-weight="500" fill="#38bdf8">📅 Batas Upload: 21 Okt 2026 (Kulino) | Presentasi: P4–P5</text>
+
+    <!-- Column 1 -->
+    <text x="24" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Usulan Topik Disertasi &amp; Rumusan Masalah (RQ/RO)</text>
+    <text x="24" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Masalah empiris TinyMLOps &amp; urgensi perbaikan metode.</text>
+
+    <!-- Column 2 -->
+    <text x="490" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Kajian Kritis ±7 Paper Scopus &amp; 1 Paper Acuan</text>
+    <text x="490" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Sintesis state-of-the-art &amp; penetapan baseline benchmark utama.</text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="500" y1="178" x2="500" y2="210" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="365" y="186" width="270" height="20" rx="4" fill="#0b0f19" stroke="#1e293b" stroke-width="1"/>
+  <text x="500" y="200" text-anchor="middle" font-size="11" font-weight="600" fill="#38bdf8">1. Gap Riset &amp; Landasan Teori (Bab 1–2 Disertasi)</text>
+
+  <!-- ================= TUGAS 2 ================= -->
+  <g transform="translate(40, 215)">
+    <rect width="920" height="98" rx="10" fill="url(#card-bg)" stroke="#0d9488" stroke-width="1.8"/>
+    
+    <!-- Badges -->
+    <rect x="20" y="14" width="220" height="26" rx="6" fill="#0d9488"/>
+    <text x="130" y="31" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">TUGAS 2 (Minggu 8–9)</text>
+
+    <rect x="255" y="14" width="380" height="26" rx="6" fill="#042f2e" stroke="#0f766e" stroke-width="1"/>
+    <text x="445" y="31" text-anchor="middle" font-size="11.5" font-weight="500" fill="#2dd4bf">⚙️ Pasca Pembahasan Materi Lanjut &amp; Bimbingan Metodologi</text>
+
+    <!-- Column 1 -->
+    <text x="24" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Perumusan Metodologi Riset (Draf Bab 3 Disertasi)</text>
+    <text x="24" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Formulasi Proposed Method &amp; diagram alir pemodelan sistem.</text>
+
+    <!-- Column 2 -->
+    <text x="490" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Integrasi Pilar Soft Computing</text>
+    <text x="490" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Penerapan Fuzzy Logic, JST, atau Algoritma Evolusioner/Optimasi.</text>
+  </g>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="500" y1="313" x2="500" y2="345" stroke="#2dd4bf" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <rect x="355" y="321" width="290" height="20" rx="4" fill="#0b0f19" stroke="#1e293b" stroke-width="1"/>
+  <text x="500" y="335" text-anchor="middle" font-size="11" font-weight="600" fill="#2dd4bf">2. Desain Algoritma &amp; Metodologi (Bab 3 Disertasi)</text>
+
+  <!-- ================= TUGAS 3 ================= -->
+  <g transform="translate(40, 350)">
+    <rect width="920" height="98" rx="10" fill="url(#card-bg)" stroke="#d97706" stroke-width="1.8"/>
+    
+    <!-- Badges -->
+    <rect x="20" y="14" width="220" height="26" rx="6" fill="#d97706"/>
+    <text x="130" y="31" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">TUGAS 3 (Minggu 14 / UAS)</text>
+
+    <rect x="255" y="14" width="380" height="26" rx="6" fill="#451a03" stroke="#b45309" stroke-width="1"/>
+    <text x="445" y="31" text-anchor="middle" font-size="11.5" font-weight="500" fill="#fbbf24">🎯 Luaran Akhir Mata Kuliah (Pengganti Ujian Tertulis)</text>
+
+    <!-- Column 1 -->
+    <text x="24" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Eksperimen Baseline vs. Proposed Method</text>
+    <text x="24" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Validasi empiris performa: akurasi, latensi, dan memory footprint.</text>
+
+    <!-- Column 2 -->
+    <text x="490" y="65" font-size="13" font-weight="600" fill="#f8fafc">• Draf Paper IMRaD Siap Submit Scopus</text>
+    <text x="490" y="83" font-size="11.5" font-weight="400" fill="#94a3b8">Naskah lengkap format IMRaD berbahasa Inggris standar akademik.</text>
+  </g>
+
+  <!-- Arrow 3 to Muara Disertasi -->
+  <line x1="500" y1="448" x2="500" y2="480" stroke="#a855f7" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <rect x="340" y="456" width="320" height="20" rx="4" fill="#0b0f19" stroke="#1e293b" stroke-width="1"/>
+  <text x="500" y="470" text-anchor="middle" font-size="11.5" font-weight="700" fill="#c084fc">3. Konversi Langsung Menjadi Publikasi Ilmiah S3</text>
+
+  <!-- ================= TARGET DISERTASI ================= -->
+  <g transform="translate(40, 485)">
+    <rect width="920" height="125" rx="10" fill="#1e1b4b" stroke="#7c3aed" stroke-width="2"/>
+    
+    <!-- Main Badge Header -->
+    <rect x="20" y="14" width="410" height="26" rx="6" fill="#7c3aed"/>
+    <text x="225" y="31" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">🎓 TARGET LUARAN PROGRAM DOKTOR (S3 PDIK UDINUS)</text>
+
+    <!-- Sub Box 1: Publikasi 1 -->
+    <g transform="translate(20, 52)">
+      <rect width="425" height="58" rx="8" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.2"/>
+      <text x="18" y="24" font-size="12.5" font-weight="700" fill="#e2e8f0">Publikasi 1: Scopus Conference (IEEE/ACM)</text>
+      <text x="18" y="43" font-size="11" font-weight="500" fill="#a78bfa">✓ Syarat Wajib Maju Ujian Proposal Disertasi (Target Tugas 3)</text>
+    </g>
+
+    <!-- Sub Box 2: Publikasi 2 -->
+    <g transform="translate(475, 52)">
+      <rect width="425" height="58" rx="8" fill="#0f172a" stroke="#ec4899" stroke-width="1.2"/>
+      <text x="18" y="24" font-size="12.5" font-weight="700" fill="#e2e8f0">Publikasi 2: Jurnal Scopus Bereputasi (Q1/Q2)</text>
+      <text x="18" y="43" font-size="11" font-weight="500" fill="#f472b6">✓ Syarat Kelulusan Sidang Terbuka Doktoral (Method Improvement)</text>
+    </g>
+  </g>
+</svg>

@@ -23,6 +23,11 @@ Perkuliahan perdana mata kuliah **Komputasi Lunak Lanjut (Advanced Soft Computin
   2. *Publikasi 2 (Kelulusan Disertasi):* Jurnal Internasional Bereputasi Scopus (Q1/Q2) yang memuat perbaikan metode (*method improvement*).
 * **Target Output:** Di akhir semester, mahasiswa menghasilkan **draf naskah ilmiah format IMRaD siap *submit* ke International Conference terindeks Scopus (IEEE/ACM/Scopus)**.
 
+![Roadmap Tugas Berkelanjutan Komputasi Lunak](./assets/roadmap_tugas_komputasi_lunak.svg)
+
+<details>
+<summary><b>Lihat Kode Diagram Mermaid</b></summary>
+
 ```mermaid
 flowchart TD
     T1["TUGAS 1 (Pertemuan 1-4)<br/>- Usulan Topik Disertasi dan Rumusan Masalah (RQ)<br/>- Kajian Kritis 7 Paper Scopus dan 1 Paper Acuan Baseline<br/>Deadline: 21 Okt 2026 di Kulino -- Presentasi: P4-P5"]
@@ -39,6 +44,8 @@ flowchart TD
     T3 -->|"3. Konversi Paper Konferensi"| PUB1
     PUB1 -->|"4. Pengembangan Naskah Jurnal"| PUB2
 ```
+
+</details>
 
 ---
 
